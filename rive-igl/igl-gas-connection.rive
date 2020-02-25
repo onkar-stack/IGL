@@ -252,16 +252,16 @@ For above Question Answer is same.
 + [*] noc issuance [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
 - igl-gas-connection:service-charge-cost-noc-issuance
 
-+ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] no gas supply [*]
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] gas supply [*]
 - igl-gas-connection:service-charge-cost-gas-supply
 
-+ [*] no gas supply [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
++ [*] gas supply [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
 - igl-gas-connection:service-charge-cost-gas-supply
 
-+ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] (remeasurement|installation) png [*]
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] remeasurement png installation [*]
 - igl-gas-connection:service-charge-cost-remeasurement-png-installation
 
-+ [*] (remeasurement|installation) [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost)  [*]
++ [*] remeasurement png installation [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost)  [*]
 - igl-gas-connection:service-charge-cost-remeasurement-png-installation
 
 + [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] extra pipe [*]
@@ -274,9 +274,6 @@ For above Question Answer is same.
 - igl-gas-connection:service-charge-cost-restoration-civil-work
 
 + [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] improper png installation gi copper customer complaining regard improper installation rfc ng
-- igl-gas-connection:service-charge-cost-improper-png-installation-gi-copper-customer-complaining-regard-improper-installation-rfc-ng
-
-+ improper [*] png [*] installation [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost)
 - igl-gas-connection:service-charge-cost-improper-png-installation-gi-copper-customer-complaining-regard-improper-installation-rfc-ng
 
 + [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] mdpe pipeline [*] (lay|shifting) [*]
@@ -381,13 +378,10 @@ Q: I tried resetting my login password, but I haven't received my password
 For above Question Answer is same.
 */
 
-+ [*] (reset|change) [*] (login|password|credentials|credential) [*]
++ [*] reset [*] (login|password)
 - igl-gas-connection:please-reset-igl-login-password
 
-+ [*] (login|password) [*] (login|password|credentials|credential) [*]
-- igl-gas-connection:please-reset-igl-login-password
-
-+ [*] (please|help) [*] (reset|change) [*] (login|password|credentials|credential) [*]
++ [*] (login|password) reset [*]
 - igl-gas-connection:please-reset-igl-login-password
 
 + [*] (forgot|forget|fail to remember|fail to recall|fail to think of|let slip) [*] (login|password)
@@ -458,9 +452,6 @@ Q: What is the Minimum Consumption charge on my bill?
 + [*] minimum (consumption|uses|utilization|application|usage|consume|spend) [*] (charge|fee|price|amount|sum|figure|fare|rate|payment|toll|levy|payment|value|bill) [*]
 - igl-gas-connection:minimum-consumption-charge-bill
 
-+ [*] minimum [*] (consumption|uses|utilization|application|usage|consume|spend) [*] (charge|fee|price|amount|sum|figure|fare|rate|payment|toll|levy|payment|value) [*] bill [*]
-- igl-gas-connection:minimum-consumption-charge-bill
-
 + [*] (charge|fee|price|amount|sum|figure|fare|rate|payment|toll|levy|payment|value|bill) [*] minimum (consumption|uses|utilization|application|usage|consume|spend) [*]
 - igl-gas-connection:minimum-consumption-charge-bill
 
@@ -477,8 +468,10 @@ Q: What happens to the excess payment in my account? I have paid excess amount.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
+
 + happen excess payment account pay excess amount
 - igl-gas-connection:happen-excess-payment-account-pay-excess-amount
+
 
 + (i|paid) [*] excess [*] (payment|pay|amount|money) [*] what [*] happen [*]
 - igl-gas-connection:happen-excess-payment-account-pay-excess-amount
@@ -496,11 +489,25 @@ Q: Where are IGL Cheque Drop boxes available?
 -------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ [*] cheque [*] drop (box|boxes) [*]
+
++ igl cheque drop box available
 - igl-gas-connection:igl-cheque-drop-box-available
 
-+ [*] drop (box|boxes) [*] cheque [*]
+
++ where [*] igl [*] cheque [*] (drop box|dropbox|box) [*]
 - igl-gas-connection:igl-cheque-drop-box-available
+
++ [*] igl [*] cheque [*] (drop box|dropbox|box) [*] where [*] available [*]
+- igl-gas-connection:igl-cheque-drop-box-available
+
+
++ [*] cheque [*] (drop box|dropbox|box) [*] where [*] (available|availability) [*]
+- igl-gas-connection:igl-cheque-drop-box-available
+
+
++ [*] (drop box|dropbox|box) [*] igl [*] cheque [*] (available|availability) [*]
+- igl-gas-connection:igl-cheque-drop-box-available
+
 
 /*
 -------------------------------------------------------------------------------------------------------------------------------------------------
@@ -551,10 +558,14 @@ Q: What should I mention on my IGL payment cheque?
 -------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ [*] (mention|write|present) [*] (cheque|check) [*]
+
++ (what|tell|may|can|shall|could|should) [*] (mention|write) [*] (payment|pay|paying) [*] cheque [*]
 - igl-gas-connection:mention-igl-payment-cheque
 
-+ [*] (cheque|check) [*] (mention|write|present) [*]
++ [*] (payment|pay|paying) [*] cheque [*] (what|tell|may|can|shall|could|should) [*] (mention|write) [*]
+- igl-gas-connection:mention-igl-payment-cheque
+
++ [*] cheque [*] (payment|pay|paying) [*] (what|tell|may|can|shall|could|should) [*] (mention|write) [*]
 - igl-gas-connection:mention-igl-payment-cheque
 
 /*
@@ -563,11 +574,18 @@ Q: Cheque should be in favour of whom?
 -------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ [*] cheque [*] favour [*]
+
++ cheque favour
 - igl-gas-connection:cheque-favour
 
-+ [*] cheque [*] favour [*]
+
++ whom [*] cheque [*] favour
 - igl-gas-connection:cheque-favour
+
++ [*] cheque [*] favour [*] whom
+- igl-gas-connection:cheque-favour
+
+
 
 /*
 -------------------------------------------------------------------------------------------------------------------------------------------------
@@ -617,14 +635,19 @@ Q: How much time it takes for updation of my online payment?
 -------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ [*] (time|when|duration) [*] (updation|update) [*] online [*] (payment|pay) [*]
+
++ [*] (much time|time) [*] (updation|update) [*] online [*] (payment|pay) [*]
 - igl-gas-connection:much-time-take-updation-online-payment
+
 
 + [*] online [*] (payment|pay) [*] (updation|update) [*] (much time|time) [*]
 - igl-gas-connection:much-time-take-updation-online-payment
 
+
 + [*] (updation|update) [*] (much time|time) [*]  online [*] (payment|pay) [*]
 - igl-gas-connection:much-time-take-updation-online-payment
+
+
 
 /*
 -------------------------------------------------------------------------------------------------------------------------------------------------
@@ -761,12 +784,20 @@ Q: What do I do with my LPG connection after shifting to PNG?
 */
 
 
-+ [*] lpg [*] (shift|shifting|using|use|change) [*] png [*]
++ lpg connection shift png
 - igl-gas-connection:lpg-connection-shift-png
 
-+ [*] png [*] (shift|shifting|using|use|change) [*] lpg [*] 
++ (what|tell|shall|can|how|may) [*] lpg [*] connection [*] shift [*] (png|pg|pn) [*]
 - igl-gas-connection:lpg-connection-shift-png
 
++ [*] shift [*] (png|pg|pn) [*] (what|tell|shall|can|how|may) [*] lpg [*] connection [*]
+- igl-gas-connection:lpg-connection-shift-png
+
++ [*] shift [*] lpg [*] connection [*] (png|pg|pn) [*] (what|tell|shall|can|how|may)
+- igl-gas-connection:lpg-connection-shift-png
+
++ [*] (png|pg|pn) connection [*] what [*] lpg connection [*]
+- igl-gas-connection:lpg-connection-shift-png
 
 
 /*
@@ -820,16 +851,17 @@ Q: Meter reader has not come to my house. Where can I share my Meter Reading for
 -------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ [*] (share|give|bestow|dispense|impart|produce|deliver) [*] (meter|metre) reading [*]
+
++ [*] (meter reader) [*] (come|came) [*] house [*] share meter [*] read [*] (billing|bill) [*]
 - igl-gas-connection:meter-reader-come-house-share-meter-read-billing
 
-+ [*] (share|give|bestow|dispense|impart|produce|deliver) [*] (meter|metre)reading [*]
++ (where) [*] share [*] meter [*] (read|reading) [*] (billing|bill) [*] (meter reader) [*] (come|came) [*] house
 - igl-gas-connection:meter-reader-come-house-share-meter-read-billing
 
-+ [*] (meter|metre) reading [*] (share|give|bestow|dispense|impart|produce|deliver) [*] 
++ [*] (meter reader|meterreader) [*] (not|no) [*]
 - igl-gas-connection:meter-reader-come-house-share-meter-read-billing
 
-+ [*] (meter|metre)reading [*] (share|give|bestow|dispense|impart|produce|deliver) [*] 
++ [*] (not|no) [*] (meter reader|meterreader) [*]
 - igl-gas-connection:meter-reader-come-house-share-meter-read-billing
 
 
@@ -852,10 +884,6 @@ Q: Meter Reader had come few days back to collect reading, but my bill has not b
 + [*] (no|not) [*] bill [*]
 - igl-gas-connection:meter-reader-come-day-back-collect-reading-bill-generate
 
-+ [*] (no|not) [*] (receive|received|generate) bill [*]
-- igl-gas-connection:meter-reader-come-day-back-collect-reading-bill-generate
-
-
 
 /*
 -------------------------------------------------------------------------------------------------------------------------------------------------
@@ -864,10 +892,27 @@ Q: What is the present unit rate of gas?
 */
 
 
-+ [*] (unit|gas) [*] (value|price|cost|rate|amount) [*]
++ present unit (value|price|cost|rate) gas
 - igl-gas-connection:present-unit-rate-gas
 
-+ [*] (value|price|cost|rate|amount) [*] (unit|gas) [*] 
+
++ [*] (now|today|the present time|the present moment) [*] unit [*] (value|price|cost|rate|amount) [*] gas [*]
+- igl-gas-connection:present-unit-rate-gas
+
+
++ [*] unit [*] (value|price|cost|rate) [*] gas [*] (now|today|the present time|the present moment) [*]
+- igl-gas-connection:present-unit-rate-gas
+
++ present (value|price|cost|rate) gas
+- igl-gas-connection:present-unit-rate-gas
+
++ gas (value|price|cost|rate)
+- igl-gas-connection:present-unit-rate-gas
+
++ [*] unit rate [*] gas [*]
+- igl-gas-connection:present-unit-rate-gas
+
++ [*] gas [*] unit rate [*]
 - igl-gas-connection:present-unit-rate-gas
 
 /*
@@ -876,18 +921,20 @@ Q: My Meter has two/ black and red colors on it. Which one of these is my actual
 -------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ [*] (meter|metre|read|reading) [*] (black|red) [*] color [*]
++ (my|i) [*] meter [*] two black [*] red color [*] (real|true|genuine|authentic|verified|attested|confirmed|definite) [*] meter [*] unit
 - igl-gas-connection:meter-two-black-red-color-one-actual-meter-unit
 
-+ [*] (black|red) [*] (meter|metre|read|reading) [*] 
++ [*] two black [*] red color [*] (real|true|genuine|authentic|verified|attested|confirmed|definite) [*] meter [*] unit [*]
 - igl-gas-connection:meter-two-black-red-color-one-actual-meter-unit
 
-+ [*] (meter|metre|read|reading) [*] (black|red) [*] (black|red) [*] 
++ [*] (real|true|genuine|authentic|verified|attested|confirmed|definite) [*] meter [*] unit [*] two black [*] red color [*]
 - igl-gas-connection:meter-two-black-red-color-one-actual-meter-unit
 
-+ [*] (black|red) [*] (black|red) [*] (meter|metre|read|reading) [*]
++ [*] (red|black) [*] meter unit [*]
 - igl-gas-connection:meter-two-black-red-color-one-actual-meter-unit
 
++ [*] meter unit [*] (red|black) [*]
+- igl-gas-connection:meter-two-black-red-color-one-actual-meter-unit
 
 /*
 -------------------------------------------------------------------------------------------------------------------------------------------------

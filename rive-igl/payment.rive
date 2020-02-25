@@ -94,5 +94,5 @@
 + [*] (bill|bills) [*] (not|no) [*] (paid|pay|payment) [*]
 - payment:what-concequences-not-paid-bill
 
-+ [*] (rate late payment surcharge|rate of late payment surcharge|lpsc) [*]
++ [*] (rate late payment surcharge|rate of late payment surcharge|lpsc rate) [*]
 - payment:rate-lpsc
