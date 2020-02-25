@@ -1,0 +1,37 @@
++ [*] (reset|reseet)
+- bot:reset
+
++ [*](due)[*]
+- usecase-due:ud-bp-number
+
++ [*] (due|overdue|duke|late|not on time|no on time|behind schedule|behindhand|behind time|delayed|delayed|belated|tardy|unpunctual|outstanding|diu|outstand|pending|remain|left|unpaid|unsettled|unresolved|owe|to be paid|payable|in arrears|in the red) [*] (bill|bills|payment|amount|total|sum|balance) [*]
+- usecase-due:ud-bp-number
+
++ [*] (bill|bills|payment|amount|total|sum|balance) [*] (due|overdue|duke|late|not on time|no on time|behind schedule|behindhand|behind time|delayed|delayed|belated|tardy|unpunctual|outstanding|diu|outstand|pending|remain|left|unpaid|unsettled|unresolved|owe|to be paid|payable|in arrears|in the red) 
+- usecase-due:ud-bp-number
+
+/*
++ [*] (bill|bills|payment) [*] (amount|total|sum) [*]
+- usecase-due:ud-bp-number
+
++ [*] (amount|total|sum) [*] (bill|bills|payment) [*]
+- usecase-due:ud-bp-number
+*/
+
++ (udbpnumber #) [*]
+- usecase-due:ud-bp-number-api-call
+
++ (udbpnumberapicall yes)
+- usecase-due:ud-due-amount
+
++ (uddueamount no)
+- usecase-due:ud-thanks
+
++ (uddueamount yes)
+- usecase-due:ud-next-query
+
++ (udbpnumberapicall no)
+- usecase-due:ud-wrong-bp
+
++ (udwrongbp #)
+- usecase-due:ud-bp-number-api-call

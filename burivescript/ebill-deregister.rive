@@ -1,0 +1,47 @@
++ [*] (reset|reseet)
+- bot:reset
+
++ [*] (ebill deregister|deregistration|ebill deregistration) [*]
+- usecase-deregister:deregister-bp-number
+
++ [*] (deregister|deregistration) [*] (ebill|e bill|bill|bills) [*]
+- usecase-deregister:deregister-bp-number
+
++ [*] (ebill|e bill|bill|bills) [*] (deregister|deregistration) [*]
+- usecase-deregister:deregister-bp-number
+
++ [*] (ebill|e bill|bill|bills) [*] (post|hard|paper) [*]
+- usecase-deregister:deregister-bp-number
+
++ [*] (post|hard|paper) [*] (ebill|e bill|bill|bills) [*]
+- usecase-deregister:deregister-bp-number
+
++ (deregisterbpnumber #) [*]
+- usecase-deregister:deregister-bp-number-api-call
+
++ (deregisterbpnumberapicall yes)
+- usecase-deregister:deregister-due-amount
+
++ (deregisterdueamount no)
+- usecase-deregister:deregister-create-ticket-api-call
+
++ (deregisterdueamount yes)
+- usecase-deregister:deregister-create-ticket-api-call-call-back
+
++ (deregisterbpnumberapicall no)
+- usecase-deregister:deregister-reenter-bp-number
+
++ (deregistercreateticketapicallcallback no)
+- usecase-deregister:deregister-thanks
+
++ (deregistercreateticketapicallcallback yes)
+- usecase-deregister:deregister-next-query
+
++ (deregisterreenterbpnumber #)
+- usecase-deregister:deregister-bp-number-api-call
+
++ (deregistercreateticketapicall no)
+- usecase-deregister:deregister-thanks
+
++ (deregistercreateticketapicall yes)
+- usecase-deregister:deregister-next-query

@@ -1,0 +1,35 @@
++ [*] (reset|reseet)
+- bot:reset
+
++ [*] (alter|alteration|change|adjust|adjustment|amend|improve|revise|reform|reshape|refashion|redesign|restyle|revamp|rework|remake|remodel|remould|redo|reconstruct|reorganize|refine|reorient|reorientate|transform|convert|put back|return|restore|replace|change) [*] (rubber tube|tude) [*]
+- rubber-tube:rb-bp-number
+
++ [*] (rubber tube|tude) [*] (alter|alteration|change|adjust|adjustment|amend|improve|revise|reform|reshape|refashion|redesign|restyle|revamp|rework|remake|remodel|remould|redo|reconstruct|reorganize|refine|reorient|reorientate|transform|convert|put back|return|restore|replace|change) [*]
+- rubber-tube:rb-bp-number
+
++ (rbbpnumber #)
+- rubber-tube:rbt-bp-number-api-call
+
++ (rbtbpnumberapicall yes)
+- rubber-tube:rb-ticket-conf
+
++ (rbticketconf yes)
+- rubber-tube:rb-create-ticket-api-call
+
++ (rbcreateticketapicall yes)
+- rubber-tube:rb-next-query
+
++ (rbtbpnumberapicall no)
+- rubber-tube:rb-re-enter-bp-number
+
++ (rbreenterbpnumber #)
+- rubber-tube:rbt-bp-number-api-call
+
++ (rgreenterbpnumber #)
+- rubber-tube:rbt-bpnumber-api-call
+
++ (rbcreateticketapicall no)
+- rubber-tube:rb-thanks
+
++ (rbticketconf no)
+- rubber-tube:rb-thanks

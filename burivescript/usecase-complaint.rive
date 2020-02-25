@@ -1,0 +1,44 @@
++ [*] (reset|reseet)
+- bot:reset
+
++ [*] (make|lodge|raise|do|register|registeration|record|book|report|file|note|log|enter|post|submit|put|list|write|receive|take) [*] (complain|complaint|protest|ticket) [*]
+- usecase-complaint:raise-complaint
+
++ [*] (complain|complaint|protest|ticket) [*] (make|lodge|raise|do|register|registeration|record|book|report|file|note|log|enter|post|submit|put|list|write|receive|take)
+- usecase-complaint:raise-complaint
+
++ [*] (complain|complaint|protest|ticket) [*]
+- usecase-complaint:raise-complaint
+
++ (raisecomplaint yes|raisecomplaint ya|raisecomplaint ok) [*]
+- usecase-complaint:bp-number
+
++ (bpnumber #)
+- usecase-complaint:bp-number-api-call
+	
++ (bpnumberapicall yes)
+- usecase-complaint:concern-details
+
++ (concerndetails *)
+- usecase-complaint:create-ticket-api-call
+
++ (createticketapicall yes)
+- usecase-complaint:next-query
+
++ (createticketapicall no)
+- usecase-complaint:end
+
++ (raisecomplaint no)
+- usecase-complaint:no-bp-number
+
++ (nobpnumber yes)
+- usecase-complaint:next-query
+
++ (nobpnumber no)
+- usecase-complaint:end
+
++ (bpnumberapicall no)
+- usecase-complaint:re-enter-bp-number
+
++ (reenterbpnumber #)
+- usecase-complaint:bp-number-api-call

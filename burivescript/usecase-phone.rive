@@ -1,0 +1,64 @@
++ [*] (reset|reseet)
+- bot:reset
+
++ [*](phone)[*]
+- usecase-phone:up-bp-number
+
++ (upbpnumber #) [*]
+- usecase-phone:up-bp-number-api-call
+
++ (upbpnumberapicall yes)
+- usecase-phone:up-phone
+
++ (upphone *)
+- usecase-phone:up-create-ticket-api-call
+
++ (upcreateticketapicall no)
+- usecase-phone:up-thanks
+
++ (upcreateticketapicall yes)
+- usecase-phone:up-next-query
+
++ (upbpnumberapicall no)
+- usecase-phone:up-reenter-bp-number
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

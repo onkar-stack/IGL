@@ -1,0 +1,17 @@
++ [*] (reset|reseet)
+- bot:reset
+
++ [*] (live chat|live chat agent|live agent|livechat|live chats|livechats|talk to agent|talk agent|staff chat) [*]
+- use-case-live-chat:usecase-livechat-agent
+
++ [*] (agent|staff|live|employee|worker|workforce|personnel|human|manpower) [*] (chat|talk|chatter|chatting|chattering|gossip|speak|communicate|communication|conversation|converse|discuss|conversation|dialogue|discourse|conference|debate|exchange of view|consultation|consult|touch|contact|deal|commune|meet|gossip|chatter|chitter chatter|converse|conversation|tittle tattle|tittletattle|prattle|jabber|jibber jabber|jibberjabber|babble|prate|go on) [*]
+- use-case-live-chat:usecase-livechat-agent
+
++ [*] (chat|talk|chatter|chatting|chattering|gossip|speak|communicate|communication|conversation|converse|discuss|conversation|dialogue|discourse|conference|debate|exchange of view|consultation|consult|touch|contact|deal|commune|meet|gossip|chatter|chitter chatter|converse|conversation|tittle tattle|tittletattle|prattle|jabber|jibber jabber|jibberjabber|babble|prate|go on) [*] (agent|staff|live|employee|worker|workforce|personnel|human|manpower) [*]
+- use-case-live-chat:usecase-livechat-agent
+
++ [*] (usecaseagent yes|usecaseagent ya|usecaseagent ok) [*]
+- use-case-live-chat:usecase-agent-yes
+
++ [*] (usecaseagent no|usecaseagent not) [*]
+- use-case-live-chat:usecase-agent-no

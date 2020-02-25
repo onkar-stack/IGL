@@ -1,0 +1,64 @@
++ [*] (reset|reseet)
+- bot:reset
+
++ [*](email)[*]
+- usecase-email:ue-bp-number
+
++ (uebpnumber #) [*]
+- usecase-email:ue-bp-number-api-call
+
++ (uebpnumberapicall yes)
+- usecase-email:ue-email
+
++ (ueemail *)
+- usecase-email:ue-create-ticket-api-call
+
++ (uecreateticketapicall no)
+- usecase-email:ue-thanks
+
++ (uecreateticketapicall yes)
+- usecase-email:ue-next-query
+
++ (uebpnumberapicall no)
+- usecase-email:ue-reenter-bp-number
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

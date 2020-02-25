@@ -1,0 +1,38 @@
++ [*] (reset|reseet)
+- bot:reset
+
++ [*] (make|lodge|raise|register|registeration|record|book|report|file|note|log|enter|post|submit|put|list|write|receive|take) [*] (leakage|leak|smell|smell|smells|smelling|fire) [*]
+- usecase-leakage:ul-leakage
+
++ [*] (leakage|leak|smell|smell|smells|smelling|fire) [*] (make|lodge|raise|register|registeration|record|book|report|file|note|log|enter|post|submit|put|list|write|receive|take) [*]
+- usecase-leakage:ul-leakage
+
++ [*] (leakage|leak|smell|smell|smells|smelling|fire) [*] (home|office|house|kitchen|residence|space|room|flat) [*]
+- usecase-leakage:ul-leakage
+
++ [*] gas [*] (leakage|leak|smell|smell|smells|smelling|fire) [*]
+- usecase-leakage:ul-leakage
+
++ [*] (leakage|leak|smell|smell|smells|smelling|fire) [*] gas [*]
+- usecase-leakage:ul-leakage
+
++ (ulleakage yes|ulleakage ya|ulleakage ok) [*]
+- usecase-leakage:ul-bp-number
+
++ (ulbpnumber #) [*]
+- usecase-leakage:ul-bp-number-api-call
+
++ (ulbpnumberapicall yes)
+- usecase-leakage:ul-create-ticket-api-call
+
++ (ulleakage no)
+- usecase-leakage:ul-info-no-bp
+
++ (ulbpnumberapicall no)
+- usecase-leakage:ul-info-no-conf
+
++ (ulcreateticketapicall yes)
+- usecase-leakage:ul-next-query
+
++ (ulcreateticketapicall no)
+- usecase-leakage:ul-thanks

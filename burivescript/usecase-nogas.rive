@@ -1,0 +1,87 @@
++ [*] (reset|reseet)
+- bot:reset
+
++ [*] (no|not|low|less|esser|inadequate) [*] gas [*]
+- usecase-nogas:nogas-bp-number
+
++ [*] gas [*] (no|not|low|less|esser|inadequate) [*]
+- usecase-nogas:nogas-bp-number
+
++ [*] (no|not|low|less|esser|inadequate) [*] gas [*] supply [*]
+- usecase-nogas:nogas-bp-number
+
++ [*] (no|not|low|less|esser|inadequate) [*] supply [*] gas [*]
+- usecase-nogas:nogas-bp-number
+
++ [*] supply [*] gas [*] (no|not|low|less|esser|inadequate) [*]
+- usecase-nogas:nogas-bp-number
+
++ [*] gas [*] supply  [*] (no|not|low|less|esser|inadequate) [*]
+- usecase-nogas:nogas-bp-number
+
++ (nogasbpnumber #) [*]
+- usecase-nogas:nogas-bp-number-api-call
+
++ (nogasbpnumberapicall yes)
+- usecase-nogas:nogas-create-ticket-api-call
+
++ (nogasemailconf no)
+- usecase-nogas:nogas-thanks
+
++ (nogasemailconf yes)
+- usecase-nogas:nogas-next-query
+
++ (nogasbpnumberapicall no)
+- usecase-nogas:nogas-reenter-bp-number
+
++ (nogascreateticketapicall no)
+- usecase-nogas:nogas-thanks
+
++ (nogascreateticketapicall yes)
+- usecase-nogas:nogas-next-query
+
++ (nogasreenterbpnumber #)
+- usecase-nogas:nogas-bp-number-api-call
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

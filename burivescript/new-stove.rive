@@ -1,0 +1,41 @@
++ [*] (reset|reseet)
+- bot:reset
+
++ (newstove|new stove|stove)
+- new-stove:ns-bp-number
+
++ [*] new stove [*] (connect|join|joint|link|attach|add) [*] gas connection [*]
+- new-stove:ns-bp-number
+
++ [*] new stove [*] compatible [*] png connection [*]
+- new-stove:ns-bp-number
+
++ (nsbpnumber #)
+- new-stove:nst-bp-number-api-call
+
++ (nstbpnumberapicall yes)
+- new-stove:ns-ticket-conf
+
++ (nsticketconf yes)
+- new-stove:ns-create-ticket-api-call
+
++ (nscreateticketapicall yes)
+- new-stove:ns-next-query
+
++ (nscreateticketapicall no)
+- new-stove:ns-thanks
+
++ (nsnobpnumber yes)
+- new-stove:ns-next-query
+
++ (nsnobpnumber no)
+- new-stove:ns-thanks
+
++ (nstbpnumberapicall no)
+- new-stove:ns-re-enter-bp-number
+
++ (nsreenterbpnumber #)
+- new-stove:nst-bp-number-api-call
+
++ (nsticketconf no)
+- new-stove:ns-no-ticket

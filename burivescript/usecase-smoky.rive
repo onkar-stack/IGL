@@ -1,0 +1,35 @@
++ [*] (reset|reseet)
+- bot:reset
+
++ [*] (not visible|notvisible|hazy|smoke) [*]
+- usecase-smoky:us-bp-number
+
++ [*] (meter|reading|measurement|measuring|measure) [*] (smokefilled|smoke filled|smoggy|hazy|foggy|murky|thick|misty|cloudy|clouded|smoggy|murky|overcast|grey|dark|dim|dull) [*]
+- usecase-smoky:us-bp-number
+
++ [*] (smokefilled|smoke filled|smoggy|hazy|foggy|murky|thick|misty|cloudy|clouded|smoggy|murky|overcast|grey|dark|dim|dull) [*] (meter|reading|measurement|measuring|measure)
+- usecase-smoky:us-bp-number
+
++ (usbpnumber #) [*]
+- usecase-smoky:us-bp-number-api-call
+
++ (usbpnumberapicall yes)
+- usecase-smoky:us-create-ticket-api-call
+
++ (usemailconf no)
+- usecase-smoky:us-thanks
+
++ (usemailconf yes)
+- usecase-smoky:us-next-query
+
++ (usbpnumberapicall no)
+- usecase-smoky:us-reenter-bp-number
+
++ (uscreateticketapicall no)
+- usecase-smoky:us-thanks
+
++ (uscreateticketapicall yes)
+- usecase-smoky:us-next-query
+
++ (usreenterbpnumber #)
+- usecase-smoky:us-bp-number-api-call

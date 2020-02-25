@@ -1,0 +1,44 @@
++ [*] (reset|reseet)
+- bot:reset
+
++ [*](ebill register|bill register)[*]
+- ebill-register:er-bp-number
+
++ [*] (mail|email|e mail|mailid|emailid) [*] (register|record|enter|file|lodge|post|set down|inscribe|write down|submit|report|take down|note|minute|list|log) [*]
+- ebill-register:er-bp-number
+
++ [*] (register|record|enter|file|lodge|post|set down|inscribe|write down|submit|report|take down|note|minute|list|log) [*] (mail|email|e mail|mailid|emailid)  [*]
+- ebill-register:er-bp-number
+
++ [*] (ebill|e bill|bill|bills) [*] (mail|email|e mail|mailid|emailid) [*]
+- ebill-register:er-bp-number
+
++ [*] (mail|email|e mail|mailid|emailid) [*] (ebill|e bill|bill|bills) [*]
+- ebill-register:er-bp-number
+
++ [*] (ebill|e bill|bill|bills) [*] (mail|email|e mail|mailid|emailid) [*]
+- ebill-register:er-bp-number
+
++ [*] (ebill|e bill|bill|bills) [*] (do|activate|want|send) [*]
+- ebill-register:er-bp-number
+
++ (erbpnumber #)
+- ebill-register:er-bp-number-api-call
+
++ (erbpnumberapicall yes)
+- ebill-register:er-email-conf
+
++ (eremailconf *)
+- ebill-register:er-create-ticket-api-call
+
++ (ercreateticketapicall yes)
+- ebill-register:er-next-query
+
++ (ercreateticketapicall no)
+- ebill-register:er-thanks
+
++ (erreenterbpnumber #)
+- ebill-register:er-bp-number-api-call
+
++ (erbpnumberapicall no)
+- ebill-register:er-re-enter-bp-number
