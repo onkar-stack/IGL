@@ -4,10 +4,10 @@ Q: What is the billing period for my bill?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ [*] (billing|bill) [*] (period|spell|interval|stretch|term|span|phase|session|duration|generated|generate) [*]
++ [*] (billing|bill) [*] (period|time|spell|interval|stretch|term|span|phase|session|duration|generated|generate) [*]
 - billing:billing-period-bill
 
-+ [*] (period|spell|interval|stretch|term|span|phase|session|duration|generated|generate) [*] (billing|bill) [*] 
++ [*] (period|time|spell|interval|stretch|term|span|phase|session|duration|generated|generate) [*] (billing|bill) [*] 
 - billing:billing-period-bill
 
 
@@ -47,10 +47,10 @@ Q: What is the basis of calculation of bill amount?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ what [*] basis [*] (compute|reckon|figure|enumerate|determine|evaluate|quantify|assess|cost|design|plan|assess|worth|price|value|evaluate|assess|estimate|rate|give|list|fix|final|finalise|finalize|define|analyse|judge|measure|charge) [*] bill [*]
++ [*] (compute|reckon|figure|enumerate|determine|evaluate|quantify|assess|cost|design|plan|assess|worth|price|value|evaluate|assess|estimate|rate|give|list|fix|final|finalise|finalize|define|analyse|judge|measure|charge) [*] bill [*]
 - billing:basis-calculation-bill
 
-+ how [*] bill [*] (compute|reckon|figure|enumerate|determine|evaluate|quantify|assess|cost|design|plan|assess|worth|price|value|evaluate|assess|estimate|rate|give|list|fix|final|finalise|finalize|define|analyse|judge|measure|charge) [*]
++ [*] bill [*] (compute|reckon|figure|enumerate|determine|evaluate|quantify|assess|cost|design|plan|assess|worth|price|value|evaluate|assess|estimate|rate|give|list|fix|final|finalise|finalize|define|analyse|judge|measure|charge) [*]
 - billing:basis-calculation-bill
 
 
@@ -117,6 +117,9 @@ Q: LPSC stands for?
 + lpsc
 - billing:lpsc-stand-for
 
++ [*] (lpsc|LPSC) [*] (stands|abbrevates|stand|abbrevate|means|mean) [*]
+- billing:lpsc-stand-for
+
 + what [*] lpsc [*]
 - billing:lpsc-stand-for
 
@@ -165,7 +168,16 @@ Q: My last bill was estimated and current reading is less than as mentioned on b
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ [*] excess [*] (payment|pay) [*]
++ [*] (estimate|estimated) [*] (current|present) [*] reading [*] less [*] excess [*] (payment|pay) [*]
+- billing:currentreading-less-than-mention
+
++ [*] excess [*] (payment|pay) [*] (estimate|estimated) [*] (current|present) [*] reading [*] less [*] 
+- billing:currentreading-less-than-mention
+
++ [*] (pay|give|submit) [*] (excess|more|extra) [*] mistake [*]
+- billing:currentreading-less-than-mention
+
++ [*] mistake [*] (pay|give|submit) [*] (excess|more|extra) [*] 
 - billing:currentreading-less-than-mention
 
 /*
