@@ -1,0 +1,929 @@
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: My gas connection is in the name of my builder, how can I get it rectified to my name?
+Q: as connection is in the name of my builder, how can I get it changed to my name?
+Q: My gas connection is in the name of my builder, how can I get it transferred to my name?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (rectify|change|transfer) [*] name [*]
+- igl-gas-connection:gas-connection-name-builder-get-rectify-name
+
++ [*] name [*] (rectify|change|transfer) [*]
+- igl-gas-connection:gas-connection-name-builder-get-rectify-name
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: I want to change/transfer ownership of IGL connection.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (change|transfer|move|shift|handover) [*] ownership [*]
+- igl-gas-connection:want-change-transfer-ownership-igl-connection
+
++ [*] ownership [*] (change|transfer|move|shift|handover)  [*]
+- igl-gas-connection:want-change-transfer-ownership-igl-connection
+	
++ [*] (change|transfer|move|shift|handover) [*] connection [*]
+- igl-gas-connection:want-change-connection-name
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What is the procedure to correct spelling of my name/address in IGL connection?
+Q: What is the procedure to correct spelling of my name in IGL connection?
+Q: What is the procedure to correct spelling of my address in IGL connection?
+Q: There is a spelling mistake in my name of IGL connection
+Q: My name is incomplete in IGL Connection
+Q: I want to add my surname in IGL connection
+Q: My name is incorrectly spelt on IGL connection/gas bill
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] correct [*] spelling (name|address) [*]
+- igl-gas-connection:procedure-correct-spelling-name-address-igl-connection
+
++ [*] (spell|spelling) mistake [*] name [*]
+- igl-gas-connection:spell-mistake-name-igl-connection
+
++ name incomplete igl connection
+- igl-gas-connection:name-incomplete-igl-connection
+
++ want add surname igl connection
+- igl-gas-connection:want-add-surname-igl-connection
+
++ [*] name [*] (incorrectly|incorrect) [*] (igl connection|gas bill)
+- igl-gas-connection:name-incorrectly-spell-igl-connection-gas-bill
+
++ [*] complete [*] bill [*] payment [*] png [*] yesterday [*] confirmation
+- igl-gas-connection:name-incorrectly-spell-igl-connection-gas-bill
+
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Where can I find the complete list of IGL Service Charges/ cost?
+Q: Where can I find the complete list of IGL Service cost?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ [*] list [*] igl service [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:find-complete-list-igl-service-charge-cost
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What are the service charges/cost for Rubber tube Replacement
+Q: What are the service charges/cost for NG Conversion for Private customers
+Q: What are the service charges/cost for Flame Problem resolution
+Q: What are the service charges/cost for New Stove Conversion (excl. supply of rubber hose) & Reconversion to LPG
+Q: What are the service charges/cost for Temporary Disconnection (Personal Reason) - Non dismantling of GI
+Q: What are the service charges/cost for CU installation
+Q: What are the service charges/cost for Temporary disconnection
+Q: What are the service charges/cost for Plugging of MDPE service line for existing user
+Q: What are the service charges/cost for Modification of PNG installation
+Q: What are the service charges/cost for Temporary Disconnection (Renovation)
+Q: What are the service charges/cost for Removal Charges for GI
+Q: What are the service charges/cost for CU pipeline
+Q: What are the service charges/cost for Re-installation (GI Pipe-3/4", 1/2" and Cu Pipe)
+Q: What are the service charges/cost for Restoration of installation
+Q: What are the service charges/cost for Permanent Disconnection
+Q: What are the service charges/cost for Geyser Point
+Q: What are the service charges/cost for Extra Point (Additional Point/Additional Piping)
+Q: What are the service charges/cost for Emergency Call - Leakage at 21 mbar - Rubber tube, GI Pipe & Copper tube, appliance valve & fittings etc.
+Q: What are the service charges/cost for Damage to Aboveground piping (Material & installation)
+Q: What are the service charges/cost for Meter related issues (running fast)
+Q: What are the service charges/cost for Wrong meter reading
+Q: What are the service charges/cost for Meter not working
+Q: What are the service charges/cost for NOC Issuance
+Q: What are the service charges/cost for No Gas Supply
+Q: What are the service charges/cost for Remeasurement of PNG installation
+Q: What are the service charges/cost for Extra Pipe (on customer request)
+Q: What are the service charges/cost for Restoration - Civil Work
+Q: What are the service charges/cost for Improper PNG Installation - GI & Copper (if customer complaining regarding improper installation after RFC/NG)
+Q: What are the service charges/cost for MDPE Pipeline Laying or Shifting
+Q: What are the service charges/cost for Transition Fittings Shifting
+Q: What are the service charges/cost for Damage to underground assets (PE pipeline damage
+Q: What are the service charges/cost for TF Damage(in case damage done due to customer)
+Q: What are the service charges/cost for Painting of GI Pipe (On customer request)
+Q: What are the service charges/cost for Leakage Testing of Individual House (On Customer request)
+Q: What are the service charges/cost for Install/Replace Meter bracket (On Customer Request)
+Q: What are the service charges/cost for Replace & Install Clamp-3/4" and 1/2" (On Customer request)
+Q: What are the service charges/cost for Replace & Install PVC clamp for Cu (On Customer request)
+Q: What are the service charges/cost for Replacement of meter (If tempered/ external damaged by customer)
+Q: What are the service charges/cost for Replacement of meter-Regualtor (If Tempered/ external damaged by customer)
+Q: What are the service charges/cost for Replace/ Install New Isolation/ Appliance valve (any extra point)
+Q: What are the service charges/cost for NG Conversion + rubber tube for length of 1 mtrs & 1.5 mtrs. In case of 2nd time connection at Government flats on same address.
+Q: What are the service charges/cost for Replacement of Anaconda with Copper fittings (On customer Request)
+Q: What are the service charges/cost for Reconversion to LPG?
+@: What are the service charges/cost for Improper PNG Installation - GI & Copper (if customer complaining regarding improper installation after RFC/NG)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/*
+For above Question Answer is same.
+*/
+
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] rubber tube replacement [*]
+- igl-gas-connection:service-charge-cost-rubber-tube-replacement
+
++ [*] rubber tube replacement [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-rubber-tube-replacement
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] ng conversion [*]
+- igl-gas-connection:service-charge-cost-ng-conversion-private-customer
+
++ [*] ng conversion [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-ng-conversion-private-customer
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] flame problem resolution [*]
+- igl-gas-connection:service-charge-cost-flame-problem-resolution
+
++ [*] flame problem resolution [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-flame-problem-resolution
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] new stove conversion excl supply rubber hose reconversion lpg
+- igl-gas-connection:service-charge-cost-new-stove-conversion-excl-supply-rubber-hose-reconversion-lpg
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] temporary disconnection personal reason non dismantle gi
+- igl-gas-connection:service-charge-cost-temporary-disconnection-personal-reason-non-dismantle-gi
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] cu installation [*]
+- igl-gas-connection:service-charge-cost-cu-installation
+
++ [*] cu installation [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-cu-installation
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] temporary disconnection [*]
+- igl-gas-connection:service-charge-cost-temporary-disconnection
+
++  [*] temporary disconnection [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-temporary-disconnection
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] plug mdpe service line exist user
+- igl-gas-connection:service-charge-cost-plug-mdpe-service-line-exist-user
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] modification [*] (png|pg|pn) installation [*]
+- igl-gas-connection:service-charge-cost-modification-png-installation
+
++ [*] modification [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] (png|pg|pn) installation [*]
+- igl-gas-connection:service-charge-cost-modification-png-installation
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] (temporary disconnection|renovation) [*]
+- igl-gas-connection:service-charge-cost-temporary-disconnection-renovation
+
++ [*] (temporary disconnection|renovation) [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-temporary-disconnection-renovation
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] gi [*]
+- igl-gas-connection:service-charge-cost-removal-charge-gi
+
++ [*] gi [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-removal-charge-gi
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] cu pipeline [*]
+- igl-gas-connection:service-charge-cost-cu-pipeline
+
++ [*] cu pipeline [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-cu-pipeline
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] installation gi pipe [*] cu pipe [*]
+- igl-gas-connection:service-charge-cost-installation-gi-pipe-cu-pipe
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] restoration [*]
+- igl-gas-connection:service-charge-cost-restoration-installation
+
++ [*] restoration [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-restoration-installation
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] permanent disconnection [*]
+- igl-gas-connection:service-charge-cost-permanent-disconnection
+
++ [*] permanent disconnection [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-permanent-disconnection
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] geyser point [*]
+- igl-gas-connection:service-charge-cost-geyser-point
+
++ [*] geyser point [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-geyser-point
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] (extra point|additional point additional piping) [*]
+- igl-gas-connection:service-charge-cost-extra-point-additional-point-additional-piping
+
++ [*] (extra point|additional point additional piping) [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-extra-point-additional-point-additional-piping
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] emergency call [*] (leakage|rubber tube|gi pipe|copper tube|appliance valve|fitting) [*]
+- igl-gas-connection:service-charge-cost-emergency-call-leakage-mbar-rubber-tube-gi-pipe-copper-tube-appliance-valve-fitting-etc
+
++ [*] emergency call [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] (leakage|rubber tube|gi pipe|copper tube|appliance valve|fitting) [*]
+- igl-gas-connection:service-charge-cost-emergency-call-leakage-mbar-rubber-tube-gi-pipe-copper-tube-appliance-valve-fitting-etc
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] damage [*] (aboveground pipe|aboveground piping|material installation) [*]
+- igl-gas-connection:service-charge-cost-damage-aboveground-pipe-material-installation
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] damage [*] (aboveground pipe|material installation|aboveground piping) [*]
+- igl-gas-connection:service-charge-cost-damage-aboveground-pipe-material-installation
+
++ [*] damage [*] (aboveground pipe|material installation) [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-damage-aboveground-pipe-material-installation
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] (meter relate issue|run fast) [*]
+- igl-gas-connection:service-charge-cost-meter-relate-issue-run-fast
+
++ [*] (meter relate issue|run fast) [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-meter-relate-issue-run-fast
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] wrong meter reading [*]
+- igl-gas-connection:service-charge-cost-wrong-meter-reading
+
++ [*] wrong meter reading [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-wrong-meter-reading
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] meter working [*]
+- igl-gas-connection:service-charge-cost-meter-working
+
++ [*] meter working [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-meter-working
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] noc issuance [*]
+- igl-gas-connection:service-charge-cost-noc-issuance
+
++ [*] noc issuance [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-noc-issuance
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] no gas supply [*]
+- igl-gas-connection:service-charge-cost-gas-supply
+
++ [*] no gas supply [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-gas-supply
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] (remeasurement|installation) png [*]
+- igl-gas-connection:service-charge-cost-remeasurement-png-installation
+
++ [*] (remeasurement|installation) [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost)  [*]
+- igl-gas-connection:service-charge-cost-remeasurement-png-installation
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] extra pipe [*]
+- igl-gas-connection:service-charge-cost-extra-pipe-customer-request
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] restoration [*]
+- igl-gas-connection:service-charge-cost-restoration-civil-work
+
++ [*] restoration [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-restoration-civil-work
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] improper png installation gi copper customer complaining regard improper installation rfc ng
+- igl-gas-connection:service-charge-cost-improper-png-installation-gi-copper-customer-complaining-regard-improper-installation-rfc-ng
+
++ improper [*] png [*] installation [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost)
+- igl-gas-connection:service-charge-cost-improper-png-installation-gi-copper-customer-complaining-regard-improper-installation-rfc-ng
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] mdpe pipeline [*] (lay|shifting) [*]
+- igl-gas-connection:service-charge-cost-mdpe-pipeline-lay-shifting
+
++ [*] mdpe pipeline [*] (lay|shifting) [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-mdpe-pipeline-lay-shifting
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] transition fitting shift [*]
+- igl-gas-connection:service-charge-cost-transition-fitting-shift
+
++ [*] transition fitting shift [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] 
+- igl-gas-connection:service-charge-cost-transition-fitting-shift
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] (damage underground asset|pe pipeline damage) [*]
+- igl-gas-connection:service-charge-cost-damage-underground-asset-pe-pipeline-damage
+
++ [*] (damage underground asset|pe pipeline damage) [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-damage-underground-asset-pe-pipeline-damage
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] tf damage [*]
+- igl-gas-connection:service-charge-cost-tf-damage-case-damage-do-due-customer
+
++ [*] tf damage [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-tf-damage-case-damage-do-due-customer
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] painting gi pipe customer request
+- igl-gas-connection:service-charge-cost-painting-gi-pipe-customer-request
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] leakage test individual house customer request
+- igl-gas-connection:service-charge-cost-leakage-test-individual-house-customer-request
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] install replace meter bracket customer request
+- igl-gas-connection:service-charge-cost-install-replace-meter-bracket-customer-request
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] (replace|install) [*] clamp [*]
+- igl-gas-connection:service-charge-cost-replace-install-pvc-clamp-cu-customer-request
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] replacement meter [*]
+- igl-gas-connection:service-charge-cost-replacement-meter-temper-external-damage-customer
+
++ [*] replacement meter [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-replacement-meter-temper-external-damage-customer
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] replacement meter regualtor [*]
+- igl-gas-connection:service-charge-cost-replacement-meter-regualtor-temper-external-damage-customer
+
++ [*] replacement meter regualtor [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-replacement-meter-regualtor-temper-external-damage-customer
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] (replace|install|new isolation|appliance valve|extra point) [*]
+- igl-gas-connection:service-charge-cost-replace-install-new-isolation-appliance-valve-extra-point
+
++ [*] (replace|install|new isolation|appliance valve|extra point) [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost)  [*]
+- igl-gas-connection:service-charge-cost-replace-install-new-isolation-appliance-valve-extra-point
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] ng conversion rubber tube length mtrs mtrs case nd time connection government flat address
+- igl-gas-connection:service-charge-cost-ng-conversion-rubber-tube-length-mtrs-mtrs-case-nd-time-connection-government-flat-address
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] replacement anaconda copper fitting customer request
+- igl-gas-connection:service-charge-cost-replacement-anaconda-copper-fitting-customer-request
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] reconversion [*] lpg [*]
+- igl-gas-connection:service-charge-cost-reconversion-lpg
+
++ [*] reconversion [*] lpg [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-reconversion-lpg
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] (clamp|clamp34) [*]
+- igl-gas-connection:service-charge-cost-reconversion-lpg
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] (clamp|clamp34) [*] 12 [*]
+- igl-gas-connection:service-charge-cost-reconversion-lpg 
+
++ [*] (clamp|clamp34) [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-reconversion-lpg
+
++ [*] (clamp|clamp34) [*] 12 [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-reconversion-lpg
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] (png|pg|pn) installation [*]
+- igl-gas-connection:service-charge-cost-reconversion-lpg
+
++ [*] service [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-rubber-tube-replacement
+
++ what [*] service [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
+- igl-gas-connection:service-charge-cost-rubber-tube-replacement
+
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] service [*]
+- igl-gas-connection:service-charge-cost-rubber-tube-replacement
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Please reset my IGL login password
+Q: I forgot my IGL login password
+Q: I tried resetting my login password, but I haven't received my password
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/*
+For above Question Answer is same.
+*/
+
++ [*] (reset|change) [*] (login|password|credentials|credential) [*]
+- igl-gas-connection:please-reset-igl-login-password
+
++ [*] (login|password) [*] (login|password|credentials|credential) [*]
+- igl-gas-connection:please-reset-igl-login-password
+
++ [*] (please|help) [*] (reset|change) [*] (login|password|credentials|credential) [*]
+- igl-gas-connection:please-reset-igl-login-password
+
++ [*] (forgot|forget|fail to remember|fail to recall|fail to think of|let slip) [*] (login|password)
+- igl-gas-connection:forgot-igl-login-password
+
++ [*] (login|password) [*] (forgot|forget|fail to remember|fail to recall|fail to think of|let slip) [*]
+- igl-gas-connection:forgot-igl-login-password
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What is the frequency of PNG bills?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ frequency png bill
+- igl-gas-connection:frequency-png-bill
+
+
++ (what|tell|shall|please|may|can|how) [*] frequency [*] (png|pg|pn) [*] bill [*]
+- igl-gas-connection:frequency-png-bill
+
++ frequency [*] (png|pg|pn) [*] bill [*] (what|tell|shall|please|may|can|how)
+- igl-gas-connection:frequency-png-bill
+
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What is the unit of measurement of my IGL gas supply?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ [*] unit [*] (measurement|measure) [*] igl [*] gas [*] supply [*]
+- igl-gas-connection:unit-measurement-igl-gas-supply
+
++ [*] (measurement|measure) [*] unit [*] igl [*] gas [*] supply [*]
+- igl-gas-connection:unit-measurement-igl-gas-supply
+
++ [*] igl [*] gas [*] supply [*] (measurement|measure) [*] unit [*]
+- igl-gas-connection:unit-measurement-igl-gas-supply
+
++ [*] gas [*] supply [*] (measurement|measure) [*] unit [*]
+- igl-gas-connection:unit-measurement-igl-gas-supply
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What is the basis of calculation of my IGL PNG bill amount?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
+/*
++ [*] (compute|reckon|figure|enumerate|determine|evaluate|quantify|assess|cost|design|plan|assess|worth|price|value|evaluate|assess|estimate|rate|amount|give|list|fix|final|finalise|finalize|define|analyse|judge|measure|charge) [*] (png|pg|pn) [*] bill [*]
+- igl-gas-connection:basis-calculation-igl-png-bill-amount
+ 
++ [*] (png|pg|pn) [*] bill [*] (compute|reckon|figure|enumerate|determine|evaluate|quantify|assess|cost|design|plan|assess|worth|price|value|evaluate|assess|estimate|rate|amount|give|list|fix|final|finalise|finalize|define|analyse|judge|measure|charge|) 
+- igl-gas-connection:basis-calculation-igl-png-bill-amount
+*/
+
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What is the Minimum Consumption charge on my bill?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] minimum (consumption|uses|utilization|application|usage|consume|spend) [*] (charge|fee|price|amount|sum|figure|fare|rate|payment|toll|levy|payment|value|bill) [*]
+- igl-gas-connection:minimum-consumption-charge-bill
+
++ [*] minimum [*] (consumption|uses|utilization|application|usage|consume|spend) [*] (charge|fee|price|amount|sum|figure|fare|rate|payment|toll|levy|payment|value) [*] bill [*]
+- igl-gas-connection:minimum-consumption-charge-bill
+
++ [*] (charge|fee|price|amount|sum|figure|fare|rate|payment|toll|levy|payment|value|bill) [*] minimum (consumption|uses|utilization|application|usage|consume|spend) [*]
+- igl-gas-connection:minimum-consumption-charge-bill
+
++ [*] minimum [*] (charge|fee|price|amount|sum|figure|fare|rate|payment|toll|levy|payment|pay|bill)
+- igl-gas-connection:minimum-consumption-charge-bill
+
++ [*] (charge|fee|price|amount|sum|figure|fare|rate|payment|toll|levy|payment|pay|bill) [*] minimum [*]
+- igl-gas-connection:minimum-consumption-charge-bill
+
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What happens to the excess payment in my account? I have paid excess amount.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ happen excess payment account pay excess amount
+- igl-gas-connection:happen-excess-payment-account-pay-excess-amount
+
++ (i|paid) [*] excess [*] (payment|pay|amount|money) [*] what [*] happen [*]
+- igl-gas-connection:happen-excess-payment-account-pay-excess-amount
+
++ (what|tell|can|shall|who|how) [*] (excess|extra) [*] (payment|pay|amount|money) [*] (account|ac) [*] 
+- igl-gas-connection:happen-excess-payment-account-pay-excess-amount
+
++ (what|tell|can|shall|who|how) [*] (excess|extra) [*] (payment|pay|amount|money) [*] paid [*]
+- igl-gas-connection:happen-excess-payment-account-pay-excess-amount
+
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Where are IGL Cheque Drop boxes available?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] cheque [*] drop (box|boxes) [*]
+- igl-gas-connection:igl-cheque-drop-box-available
+
++ [*] drop (box|boxes) [*] cheque [*]
+- igl-gas-connection:igl-cheque-drop-box-available
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Which is the nearest IGL cheque drop to me?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ (nearest|nearby|near) igl cheque drop
+- igl-gas-connection:nearest-igl-cheque-drop
+
++ (nearest|nearby|near) [*] igl [*] cheque [*] drop [*]
+- igl-gas-connection:nearest-igl-cheque-drop
+
++ (nearest|nearby|near) [*] cheque [*] drop [*]
+- igl-gas-connection:nearest-igl-cheque-drop
+
++ [*] cheque [*] drop [*] (nearest|nearby|near) [*]
+- igl-gas-connection:nearest-igl-cheque-drop
+
++ [*] cheque [*] drop [*]
+- igl-gas-connection:nearest-igl-cheque-drop
+
+
+
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Which is the nearest cheque drop to me?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ (nearest|nearby|near) igl cheque dro
+- igl-gas-connection:nearest-cheque-drop
+
++ igl cheque drop
+- igl-gas-connection:nearest-cheque-drop
+
++ [*] (cheque|check) drop [*]  (close|nearby|not far away|not far off|close at hand|near at hand|at hand|a stones throw away|within reach|within range|accessible|handy|convenient|local|neighbouring|adjacent|next door|adjoining|bordering|abutting|contiguous|proximate|near) [*]
+- igl-gas-connection:nearest-cheque-drop
+
++  [*] (close|nearby|not far away|not far off|close at hand|near at hand|at hand|a stones throw away|within reach|within range|accessible|handy|convenient|local|neighbouring|adjacent|next door|adjoining|bordering|abutting|contiguous|proximate|near)  [*] (cheque|check) drop [*]
+- igl-gas-connection:nearest-cheque-drop
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What should I mention on my IGL payment cheque?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (mention|write|present) [*] (cheque|check) [*]
+- igl-gas-connection:mention-igl-payment-cheque
+
++ [*] (cheque|check) [*] (mention|write|present) [*]
+- igl-gas-connection:mention-igl-payment-cheque
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Cheque should be in favour of whom?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] cheque [*] favour [*]
+- igl-gas-connection:cheque-favour
+
++ [*] cheque [*] favour [*]
+- igl-gas-connection:cheque-favour
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Can I pay my IGL PNG Bill by cash? Where can I deposit cash against my IGL PNG Bill?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ pay igl png bill cash deposit cash igl png bill
+- igl-gas-connection:pay-igl-png-bill-cash-deposit-cash-igl-png-bill
+
++ (what|tell|may|can|shall|could|should|where) [*] (pay|payment) [*] (png|pg|pn) [*] bill [*] cash [*] 
+- igl-gas-connection:pay-igl-png-bill-cash-deposit-cash-igl-png-bill
+
++ [*] (pay|payment) [*] (png|pg|pn) [*] bill [*] cash [*] (what|tell|may|can|shall|could|should|how|where)
+- igl-gas-connection:pay-igl-png-bill-cash-deposit-cash-igl-png-bill
+
++ [*] (png|pg|pn) [*] bill [*] cash [*] (what|tell|may|can|shall|could|should|how|where)
+- igl-gas-connection:pay-igl-png-bill-cash-deposit-cash-igl-png-bill
+
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Does IGL accept cards/NACH/EBPP/Standing Instructions on Card (SBI)/E Wallets/PayTM for payment against PNG bills?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ igl [*] accept [*] (card|nach|ebpp|stand instruction|card sbi|e wallets|paytm) [*] (payment|pay|paid) [*] (png|pg|pn) [*] bill
+- igl-gas-connection:igl-accept-card-nach-ebpp-stand-instruction-card-sbi-e-wallets-paytm-payment-png-bill
+
++ [*] (payment|pay|paid) [*] (png|pg|pn) [*] bill [*] igl [*] accept [*] (card|nach|ebpp|stand instruction|card sbi|e wallets|paytm) [*]
+- igl-gas-connection:igl-accept-card-nach-ebpp-stand-instruction-card-sbi-e-wallets-paytm-payment-png-bill
+
++ [*] (card|nach|ebpp|stand instruction|card sbi|e wallets|paytm) [*] (payment|pay|paid) [*] (png|pg|pn) [*] bill [*]
+- igl-gas-connection:igl-accept-card-nach-ebpp-stand-instruction-card-sbi-e-wallets-paytm-payment-png-bill
+
++ [*] (payment|pay|paid) [*] (png|pg|pn) [*] bill [*] (card|nach|ebpp|stand instruction|card sbi|e wallets|paytm) [*]
+- igl-gas-connection:igl-accept-card-nach-ebpp-stand-instruction-card-sbi-e-wallets-paytm-payment-png-bill
+
+
+
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: How much time it takes for updation of my online payment?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (time|when|duration) [*] (updation|update) [*] online [*] (payment|pay) [*]
+- igl-gas-connection:much-time-take-updation-online-payment
+
++ [*] online [*] (payment|pay) [*] (updation|update) [*] (much time|time) [*]
+- igl-gas-connection:much-time-take-updation-online-payment
+
++ [*] (updation|update) [*] (much time|time) [*]  online [*] (payment|pay) [*]
+- igl-gas-connection:much-time-take-updation-online-payment
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: I had paid my PNG Bill yesterday through online mode. Kindly confirm whether you have received it/Confirm its realization/ Confirm have you received it.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ [*] (pay|payment|paid) [*] (png|pg|pn) [*] bill [*] online [*] confirm [*] (receive|confirm|realization|confirm receive) [*]
+- igl-gas-connection:pay-png-bill-yesterday-online-mode-kindly-confirm-whether-receive-confirm-realization-confirm-receive
+
+
++ [*] confirm [*] (receive|confirm|realization|confirm receive) [*] (pay|payment|paid) [*] (png|pg|pn) [*] bill [*] online [*]
+- igl-gas-connection:pay-png-bill-yesterday-online-mode-kindly-confirm-whether-receive-confirm-realization-confirm-receive
+
+
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: I had paid my PNG Bill yesterday through online mode. Kindly confirm whether you have received it
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ pay png bill yesterday online mode kindly confirm whether receive
+- igl-gas-connection:pay-png-bill-yesterday-online-mode-kindly-confirm-whether-receive
+
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: I had paid my PNG Bill yesterday through online mode. Kindly confirm its realization
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (pay|payment) [*] (confirm|confirmation|realization) [*]
+- igl-gas-connection:pay-png-bill-yesterday-online-mode-kindly-confirm-realization
+
++ [*] bill [*] payment [*] (png|pg|pn) [*] (confirm|confirmation|realization) [*]
+- igl-gas-connection:pay-png-bill-yesterday-online-mode-kindly-confirm-realization
+
++ [*] bill [*] payment [*] png [*] yesterday [*] confirmation [*]
+- igl-gas-connection:pay-png-bill-yesterday-online-mode-kindly-confirm-realization
+
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: My last date of payment is today. I have made payment on today. Will there be any penalty?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ last date payment today make payment today penalty
+- igl-gas-connection:last-date-payment-today-make-payment-today-penalty
+
++ [*] last [*] date [*] (payment|pay|paid) [*] today [*] (penalty|fine) [*]
+- igl-gas-connection:last-date-payment-today-make-payment-today-penalty
+
++ [*] (last date|today) [*] (payment|pay) [*] (penalty|punishment|fine) [*]
+- igl-gas-connection:last-date-payment-today-make-payment-today-penalty
+
++ [*] (payment|pay) [*] (last date|today) [*] (penalty|punishment|fine) [*]
+- igl-gas-connection:last-date-payment-today-make-payment-today-penalty
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: How is the Late Payment Charges calculated?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ late payment charge calculate
+- igl-gas-connection:late-payment-charge-calculate
+
++ how [*] late [*] (payment|pay|paid) [*] (charge|fine|cost|rate|money|amount) [*] calculate
+- igl-gas-connection:late-payment-charge-calculate
+
++ how [*] late [*] (charge|fine|cost|rate|money|amount) [*] calculate
+- igl-gas-connection:late-payment-charge-calculate
+
++ how [*] calculate [*] late [*] (charge|fine|cost|rate|money|amount) [*] 
+- igl-gas-connection:late-payment-charge-calculate
+
++ [*] payment late [*] what [*]
+- igl-gas-connection:late-payment-charge-calculate
+
++ [*] what [*] payment late [*] 
+- igl-gas-connection:late-payment-charge-calculate
+
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: How is the LPC charged?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ (lpc|late payment charge)
+- igl-gas-connection:lpc-charge
+
++ what [*] (lpc|late payment charge)
+- igl-gas-connection:lpc-charge
+
++ [*] late payment [*] (charge|fee|price|amount|sum|figure|fare|rate|payment|toll|levy) [*]
+- igl-gas-connection:lpc-charge
+
++ [*] (charge|fee|price|amount|sum|figure|fare|rate|payment|toll|levy) [*] late payment [*]
+- igl-gas-connection:lpc-charge
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: How is the LPC calculated?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ lpc (calculate|compute|work out|reckon|figure|enumerate|determine|evaluate|quantify|assess|cost|put a figure on|calculation)
+- igl-gas-connection:lpc-calculate
+
++ how [*] lpc [*] (calculate|compute|work out|reckon|figure|enumerate|determine|evaluate|quantify|assess|cost|put a figure on|calculation)
+- igl-gas-connection:lpc-calculate 
+
++ how [*] (calculate|compute|work out|reckon|figure|enumerate|determine|evaluate|quantify|assess|cost|put a figure on|calculation) [*] lpc
+- igl-gas-connection:lpc-calculate
+
++ [*] (lpc|late payment charge) [*] (calculate|compute|work out|reckon|figure|enumerate|determine|evaluate|quantify|assess|cost|put a figure on|calculation)
+- igl-gas-connection:lpc-calculate
+
++ [*] (calculate|compute|work out|reckon|figure|enumerate|determine|evaluate|quantify|assess|cost|put a figure on|calculation) [*] (lpc|late payment charge) [*]
+- igl-gas-connection:lpc-calculate
+
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What do I do with my LPG connection after shifting to PNG?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ [*] lpg [*] (shift|shifting|using|use|change) [*] png [*]
+- igl-gas-connection:lpg-connection-shift-png
+
++ [*] png [*] (shift|shifting|using|use|change) [*] lpg [*] 
+- igl-gas-connection:lpg-connection-shift-png
+
+
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Can I have 2 connections in the same house?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ (0|2|3|4|5|two|more than one|more than 1|multiple) connection
+- igl-gas-connection:connection-house
+
++ [*] (0|2|3|4|5|two|more than one|more than 1|multiple) [*] (connections|connection) [*] (home|house|residence|accommodation|space|room|place) [*]
+- igl-gas-connection:connection-house
+
++ [*] (home|house|residence|accommodation|space|room|place) [*] (0|2|3|4|5|two|more than one|more than 1|multiple) [*] (connections|connection) [*]
+- igl-gas-connection:connection-house
+
++ [*] (0|2|3|4|5|two|more than one|more than 1|multiple) [*] connection [*]
+- igl-gas-connection:connection-house
+
++ [*] connection [*] (0|2|3|4|5|two|more than one|more than 1|multiple) [*]
+- igl-gas-connection:connection-house
+
++ [*] connection [*] (home|house|residence|accommodation|space|room|place) [*]
+- igl-gas-connection:connection-house
+
++ [*] (home|house|residence|accommodation|space|room|place) [*] connection [*]
+- igl-gas-connection:connection-house
+
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Can I have more than 1 connection in the same house?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ (more than 1) connection
+- igl-gas-connection:connection-house
+
++ (can|i|shall|tell|should|could|may) [*] more than [*] (1|one) [*] connection [*]
+- igl-gas-connection:connection-house
+
+
++ [*] more than [*] (1|one) [*] connection [*] (can|i|shall|tell|should|could|may|what)
+- igl-gas-connection:connection-house
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Meter reader has not come to my house. Where can I share my Meter Reading for billing?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (share|give|bestow|dispense|impart|produce|deliver) [*] (meter|metre) reading [*]
+- igl-gas-connection:meter-reader-come-house-share-meter-read-billing
+
++ [*] (share|give|bestow|dispense|impart|produce|deliver) [*] (meter|metre)reading [*]
+- igl-gas-connection:meter-reader-come-house-share-meter-read-billing
+
++ [*] (meter|metre) reading [*] (share|give|bestow|dispense|impart|produce|deliver) [*] 
+- igl-gas-connection:meter-reader-come-house-share-meter-read-billing
+
++ [*] (meter|metre)reading [*] (share|give|bestow|dispense|impart|produce|deliver) [*] 
+- igl-gas-connection:meter-reader-come-house-share-meter-read-billing
+
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Meter Reader had come few days back to collect reading, but my bill has not been generated.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ [*] meter [*] reader [*] (collect|taken) [*] reading [*] bill [*] (no|not) [*] generate [*]
+- igl-gas-connection:meter-reader-come-day-back-collect-reading-bill-generate
+
++ [*] bill [*] (no|not) [*] generate [*] meter [*] (reader|reading) [*] (collect|taken) [*] 
+- igl-gas-connection:meter-reader-come-day-back-collect-reading-bill-generate
+
++ [*] bill [*] (no|not) [*]
+- igl-gas-connection:meter-reader-come-day-back-collect-reading-bill-generate
+
++ [*] (no|not) [*] bill [*]
+- igl-gas-connection:meter-reader-come-day-back-collect-reading-bill-generate
+
++ [*] (no|not) [*] (receive|received|generate) bill [*]
+- igl-gas-connection:meter-reader-come-day-back-collect-reading-bill-generate
+
+
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What is the present unit rate of gas?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ [*] (unit|gas) [*] (value|price|cost|rate|amount) [*]
+- igl-gas-connection:present-unit-rate-gas
+
++ [*] (value|price|cost|rate|amount) [*] (unit|gas) [*] 
+- igl-gas-connection:present-unit-rate-gas
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: My Meter has two/ black and red colors on it. Which one of these is my actual meter units?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (meter|metre|read|reading) [*] (black|red) [*] color [*]
+- igl-gas-connection:meter-two-black-red-color-one-actual-meter-unit
+
++ [*] (black|red) [*] (meter|metre|read|reading) [*] 
+- igl-gas-connection:meter-two-black-red-color-one-actual-meter-unit
+
++ [*] (meter|metre|read|reading) [*] (black|red) [*] (black|red) [*] 
+- igl-gas-connection:meter-two-black-red-color-one-actual-meter-unit
+
++ [*] (black|red) [*] (black|red) [*] (meter|metre|read|reading) [*]
+- igl-gas-connection:meter-two-black-red-color-one-actual-meter-unit
+
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What happens to an extra amount in my IGL PNG account?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (extra|addition|supplement|addon|bonus) [*] (png|pg|pn) [*] account
+- igl-gas-connection:happen-extra-amount-igl-png-account
+
++ [*] (png|pg|pn) [*] account [*] (extra|addition|supplement|addon|bonus) [*] 
+- igl-gas-connection:happen-extra-amount-igl-png-account
+
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: How do I know my Meter Number?
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ (know|how|tell|can|who|shall) [*] meter (number|no) [*]
+- igl-gas-connection:know-meter-number
+
++ [*] meter (number|no) [*] (know|how|tell|can|who|shall)
+- igl-gas-connection:know-meter-number
+
++ [*] (meter|metre) (number|num|no) [*]
+- igl-gas-connection:know-meter-number
+
+
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Kindly share the list of IGL Walk In Center
+-------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (walk in|walkin|walking) [*]
+- igl-gas-connection:kindly-share-list-igl-walk-center

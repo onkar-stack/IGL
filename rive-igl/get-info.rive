@@ -1,0 +1,590 @@
++ [*] (business|igl) [*] (philosophy|policy|terminology|phraselogy|philosphy) [*]
+- get-info:igl-businees-policy
+
++ [*] (philosophy|policy|terminology|phraselogy|philosphy) [*] (business|igl) [*]
+- get-info:igl-businees-policy
+
++ [*] (bankers|banker|auditors|auditor) [*]
+- get-info:bankers-auditors-igl
+
++ (whistle blow|whistleblow|whistleblower|whistleblowing) (plan|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy)
+- get-info:whistle-blower-policy
+
++ (whistle blow|whistleblow|whistleblower|whistleblowing)(plan|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy)
+- get-info:whistle-blower-policy
+
++ what [*] (whistle blow|whistleblow|whistleblower|whistleblowing) (plan|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) [*]
+- get-info:whistle-blower-policy
+
++ what [*] (whistle blow|whistleblow|whistleblower|whistleblowing)(plan|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) [*]
+- get-info:whistle-blower-policy
+
++ (whistle blow|whistleblow|whistleblower|whistleblowing)(plan|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) [*] what
+- get-info:whistle-blower-policy
+
++ (whistle blow|whistleblow|whistleblower|whistleblowing) (plan|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) [*] what
+- get-info:whistle-blower-policy
+
++ [*] (know|about|mean) [*] (whistle blow|whistleblow|whistleblower|whistleblowing) (plan|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) [*]
+- get-info:whistle-blower-policy
+
++ [*] (know|about|mean) [*] (whistle blow|whistleblow|whistleblower|whistleblowing)(plan|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) [*]
+- get-info:whistle-blower-policy
+
++ [*] (applicability|application|applicable|apply) [*] (whistle blow|whistleblow|whistleblower|whistleblowing) (plan|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) [*]
+- get-info:applicability-whistle-blower
+
++ [*] (whistle blow|whistleblow|whistleblower|whistleblowing) (plan|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) [*] (applicability|application|applicable|apply) [*] 
+- get-info:applicability-whistle-blower
+
++ [*] (whistle blow|whistleblow|whistleblower|whistleblowing)(plan|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) [*] (applicability|application|applicable|apply) [*] 
+- get-info:applicability-whistle-blower
+
++ [*] (applicability|application|applicable|apply) [*] (whistle blow|whistleblow|whistleblower|whistleblowing)(plan|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) [*]
+- get-info:applicability-whistle-blower
+
++ [*] (scope|extent|range|breadth|width|reach|sweep|purview|span|stretch|spread|horizon) [*] (whistle blow|whistleblow|whistleblower|whistleblowing) (plan|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) [*]
+- get-info:scope-whistle-blower
+
++ [*] (scope|extent|range|breadth|width|reach|sweep|purview|span|stretch|spread|horizon) [*] (whistle blow|whistleblow|whistleblower|whistleblowing)(plan|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) [*]
+- get-info:scope-whistle-blower
+
++ [*] (whistle blow|whistleblow|whistleblower|whistleblowing)(plan|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) [*] (scope|extent|range|breadth|width|reach|sweep|purview|span|stretch|spread|horizon) [*]
+- get-info:scope-whistle-blower
+
++ [*] (whistle blow|whistleblow|whistleblower|whistleblowing) (plan|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) [*] (scope|extent|range|breadth|width|reach|sweep|purview|span|stretch|spread|horizon) [*]
+- get-info:scope-whistle-blower
+
++ what [*] relate party (plans|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) 
+- get-info:related-party-policy
+
++ what [*] relateparty(plans|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) 
+- get-info:related-party-policy
+
++ [*] (know|about|mean) [*] relate party (plans|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) [*]
+- get-info:related-party-policy
+
++ [*] (know|about|mean) [*] relateparty(plans|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) [*]
+- get-info:related-party-policy
+
++ relate party (plans|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy)
+- get-info:related-party-policy 
+
++ relateparty(plans|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy)
+- get-info:related-party-policy 
+
++ [*] code [*] fair disclosure [*]
+- get-info:code-fair-disclosure
+
++ (code fair disclosure|codefairdisclosure|codefair disclosure)
+- get-info:code-fair-disclosure
+
++ [*] policy [*] (materiality|disclosure) [*]
+- get-info:policy-materiality-disclosure
+
++ [*] (materiality|disclosure) [*] policy [*]
+- get-info:policy-materiality-disclosure
+
++ [*] (divided|divide) (distributed|distribution|distribute) (plan|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) [*]
+- get-info:divided-distributed-policy
+
++ [*] (plan|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) [*] (divided|divide) (distributed|distribution|distribute) [*]
+- get-info:divided-distributed-policy
+
++ [*] insider (trade|trading) (plan|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) [*]
+- get-info:insider-trading-policy
+
++ [*] (plan|strategy|proposed action|blueprint|approach|scheme|stratagem|programme|schedule|code|system|guidelines|intentions|notions|theory|line|position|stance|attitude|policy) [*] insider (trade|trading) [*]
+- get-info:insider-trading-policy
+
++ [*] (good|sake|interest|welfare|well being|satisfaction|enjoyment|advantage|comfort|ease|convenience|benefit) [*] (png|pn|pg) [*]
+- get-info:benefits-png
+
++ [*] (png|pn|pg) [*] (good|sake|interest|welfare|well being|satisfaction|enjoyment|advantage|comfort|ease|convenience|benefit) [*]
+- get-info:benefits-png
+
++ [*] (see|glance|observe|view|examine|study|inspect|scan|survey|sight|peep|peek|glimpse|gaze|stare|gape|ogle) [*] (igl pipeline network|iglpipelinenetwork) [*] 
+- get-info:igl-pipeline-network
+
++ [*] (pipeline network|pipelienenetwork) [*] 
+- get-info:igl-pipeline-network
+
++ [*] (igl pipeline network|iglpipelinenetwork) [*] (see|glance|observe|view|examine|study|inspect|scan|survey|sight|peep|peek|glimpse|gaze|stare|gape|ogle)  [*] 
+- get-info:igl-pipeline-network
+
++ [*] (apply|register|application) [*] (new png connection|png connection) [*]
+- get-info:apply-new-png-connection
+
++ [*] (new png connection|png connection) [*] (apply|register|application) [*]
+- get-info:apply-new-png-connection
+
++ [*] (png|pn|pg) [*] (apply|register|application) [*]
+- get-info:apply-new-png-connection
+
++ [*] (apply|register|application) [*] (png|pn|pg) [*]
+- get-info:apply-new-png-connection
+
++ (new png connection|png connection|new connection|new connections)
+- get-info:apply-new-png-connection
+
++ [*] payment [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode) [*] (png|pn|pg) [*]
+- get-info:payment-mode-png
+
++ [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode) [*] payment [*] (png|pn|pg) [*]
+- get-info:payment-mode-png
+
++ [*] (png|pn|pg) [*] payment [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode) [*]
+- get-info:payment-mode-png
+
++ [*] payment [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode) [*]
+- get-info:payment-mode-png
+
++ [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode) [*] payment  [*]
+- get-info:payment-mode-png
+
++ [*] criteria [*] (png|pn|pg) connection [*]
+- get-info:criteria-png-conection
+
++ [*] (png|pn|pg) connection [*] criteria [*] 
+- get-info:criteria-png-conection
+
++ [*] refund [*] security deposit [*]
+- get-info:refund-security-deposit
+
++ [*] security deposit [*] refund [*]
+- get-info:refund-security-deposit
+
++ [*] (payable|pay) [*] (service|charge) [*]
+- get-info:payble-services-charges
+
++ [*] (service|charge) [*] (payable|pay) [*]
+- get-info:payble-services-charges
+	
++ [*] guideline [*] (gas geyser|gasgeyser) [*]
+- get-info:guideline-gas-geyser-install
+
++ [*] (gas geyser|gasgeyser)  [*] guideline [*]
+- get-info:guideline-gas-geyser-install
+
++ [*] install [*] (gas geyser|gasgeyser) [*]
+- get-info:guideline-gas-geyser-
+ 
++ [*] (gas geyser|gasgeyser) [*] install [*] 
+- get-info:guideline-gas-geyser-install
+
++ [*] (transfer|move|shift|handover|relocation|change|changeover|switch|convert) [*] (owner|ownership|title|possession) [*] (png|pn|pg) [*]
+- get-info:trsnsfer-png-ownership
+
++ [*] (transfer|move|shift|handover|relocation|change|changeover|switch|convert) [*] (png|pn|pg) [*] (owner|ownership|title|possession) [*]
+- get-info:trsnsfer-png-ownership
+
++ [*] (owner|ownership|title|possession) [*] (png|pn|pg) [*] (transfer|move|shift|handover|relocation|change|changeover|switch|convert) [*]
+- get-info:trsnsfer-png-ownership
+
++ [*] (png|pn|pg) [*] (owner|ownership|title|possession) [*] (transfer|move|shift|handover|relocation|change|changeover|switch|convert) [*]
+- get-info:trsnsfer-png-ownership
+
++ [*] (png|pn|pg) bill [*]
+- get-info:know-png-bill
+
++ [*] (good|sake|interest|welfare|well being|satisfaction|enjoyment|advantage|comfort|ease|convenience|benefit) [*] (cng|cn|cg)[*]
+- get-info:what-benefits-cng
+
++ [*] (cng|cn|cg)[*] (good|sake|interest|welfare|well being|satisfaction|enjoyment|advantage|comfort|ease|convenience|benefit) [*]
+- get-info:what-benefits-cng
+
++ [*] step [*] care [*] (cng|cn|cg)vehicle [*]
+- get-info:steps-cng-vehicle
+
++ [*] vehicle conversion [*] (cng|cn|cg)[*]
+- get-info:vehicle-conversion-cng
+
++ [*] (cng|cn|cg)retrofitment [*] (centre|locate|location|position|place|situation|site|locality|locale|spot|whereabouts|point|placement) [*]
+- get-info:cng-retrofilment-centre
+
++ [*] (centre|locate|location|position|place|situation|site|locality|locale|spot|whereabouts|point|placement) [*] (cng|cn|cg)retrofitment [*]
+- get-info:cng-retrofilment-centre
+
++ [*] (cng|cn|cg)[*] economical [*] (vehicles|vehicle) [*]
+- get-info:cng-economical-vehicle
+
++ [*] (cng|cn|cg)(save|saving) calculator [*]
+- get-info:cng-saving-calculator
+
++ [*] (locate|location|position|place|situation|site|locality|locale|spot|whereabouts|point|placement|centre) [*] (cng station|cngstation) [*]
+- get-info:cng-station-location
+
++ [*] (cng station|cngstation) [*] (centre|locate|location|position|place|situation|site|locality|locale|spot|whereabouts|point|placement) [*]
+- get-info:cng-station-location
+
++ [*] (cng station|cngstation) [*]
+- get-info:cng-station-location
+
++ [*] (cng|cn|cg)cylinder hydro (test|testing) [*] (centre|locate|location|position|place|situation|site|locality|locale|spot|whereabouts|point|placement) [*]
+- get-info:cng-cylinder-hydro-testing-centre
+
++ [*] (cng|cn|cg) [*] (price|cost|asking price|selling price|charge|fee|rate|fare|amount) [*]
+- get-info:cng-price
+
++ [*] (price|cost|asking price|selling price|charge|fee|rate|fare|amount) [*] (cng|cn|cg) [*]
+- get-info:cng-price
+
++ [*] (cng|cn|cg)[*] (payment|pay) [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode) [*]
+- get-info:payment-option-cng
+
++ [*] (cng|cn|cg)[*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode) [*] (payment|pay) [*] 
+- get-info:payment-option-cng
+
++ [*] (payment|pay) [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode) [*] (cng|cn|cg)[*]
+- get-info:payment-option-cng
+
++ [*] (payment|pay) [*] (cng|cn|cg)[*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode) [*] 
+- get-info:payment-option-cng
+
++ [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode) [*] (payment|pay)  [*] (cng|cn|cg)[*]
+- get-info:payment-option-cng
+
++ [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode) [*] (cng|cn|cg)[*] (payment|pay) [*]
+- get-info:payment-option-c
+
++ [*] new initiatives [*] (cng|cn|cg)[*]
+- get-info:initiative-cng
+
++ [*] (cng|cn|cg)[*] new initiatives [*]
+- get-info:initiative-cng
+
++ [*] (natural|nature) gas [*]
+- get-info:know-about-natural-gas
+
++ [*] (safety|protection|security) (information|details|particulars|facts|figures|data) [*] (cng|cn|cg)[*]
+- get-info:safety-information-cng
+
++ [*] (safety|protection|security)(information|details|particulars|facts|figures|data) [*] (cng|cn|cg)[*]
+- get-info:safety-information-cng
+
++ [*] (cng|cn|cg)[*] (safety|protection|security) (information|details|particulars|facts|figures|data) [*]
+- get-info:safety-information-cng
+
++ [*] (cng|cn|cg)[*] (safety|protection|security)(information|details|particulars|facts|figures|data) [*]
+- get-info:safety-information-cng
+
++ [*] (safety|protection|security) (information|details|particulars|facts|figures|data) [*] (png|pn|pg) [*]
+- get-info:safety-information-png
+
++ [*] (safety|protection|security)(information|details|particulars|facts|figures|data) [*] (png|pn|pg) [*]
+- get-info:safety-information-png
+
++ [*] (png|pn|pg) [*] (safety|protection|security) (information|details|particulars|facts|figures|data) [*]
+- get-info:safety-information-png
+
++ [*] (png|pn|pg) [*] (safety|protection|security)(information|details|particulars|facts|figures|data) [*]
+- get-info:safety-information-png
+
++ [*] (precaution|safeguard|preventative measure|preventive measure|safety measure|insurance|defence|provision) [*] (dig|digging) [*]
+- get-info:precautions-digging
+
++ [*] (dig|digging) [*] (precaution|safeguard|preventative measure|preventive measure|safety measure|insurance|defence|provision) [*]
+- get-info:precautions-digging
+
++ [*] (detect|find|get|catch) [*] gas leakage [*]
+- get-info:how-detect-gas-leakage
+
++ [*] gas leakage [*] (detect|find|get|catch) [*]
+- get-info:how-detect-gas-leakage
+
++ [*] gas [*] leakage [*] 
+- get-info:how-detect-gas-leakage
+
++ [*] leakage [*] gas [*] 
+- get-info:how-detect-gas-leakage
+
++ [*] customer [*] (teach|school|tuition|tutoring|instruction|pedagogy|andragogy|coaching|training|tutelage|drilling|preparation|guidance|indoctrination|inculcation|enlightenment|edification|cultivation|development|improvement|bettering|education|educational) [*] initiative [*] 
+- get-info:customer-educational-iniatives
+
++ [*] (teach|school|tuition|tutoring|instruction|pedagogy|andragogy|coaching|training|tutelage|drilling|preparation|guidance|indoctrination|inculcation|enlightenment|edification|cultivation|development|improvement|bettering|education|educational) [*] initiative [*] customer [*] 
+- get-info:customer-educational-iniatives
+
++ [*] (awards|accolades) [*]
+- get-info:awards-accolades-igl
+
++ [*] igl [*] product [*] (commercial|industrial area) [*]
+- get-info:igl-commercial-industrial-areas
+
++ [*] product [*] igl [*]  (commercial|industrial area) [*]
+- get-info:igl-commercial-industrial-areas
+
++ [*] (commercial|industrial area) [*] igl [*] product [*]
+- get-info:igl-commercial-industrial-areas
+
++ [*] (commercial|industrial area) [*] product [*] igl [*]
+- get-info:igl-commercial-industrial-areas
+
++ [*] (good|sake|interest|welfare|well being|satisfaction|enjoyment|advantage|comfort|ease|convenience|benefit) [*] igl product [*] (commercial|industrial areas) [*]
+- get-info:igl-commercial-industrial-benefits
+
++ [*] igl product [*] (good|sake|interest|welfare|well being|satisfaction|enjoyment|advantage|comfort|ease|convenience|benefit) [*] (commercial|industrial areas) [*]
+- get-info:igl-commercial-industrial-benefits
+
++ [*] (commercial|industrial areas) [*] (good|sake|interest|welfare|well being|satisfaction|enjoyment|advantage|comfort|ease|convenience|benefit) [*] igl product [*]
+- get-info:igl-commercial-industrial-benefits
+
++ [*] usage [*] igl product [*] (commercial|industrial area) [*]
+- get-info:igl-commercial-industrial-usage
+
++ [*] (commercial|industrial area) [*] usage [*] igl product [*]
+- get-info:igl-commercial-industrial-usage
+
++ [*] whom [*] (contact|get in touch with|communicate with|make contact with|approach|reach|notify|be in communication with) [*] (commercial|industrial) product [*]
+- get-info:igl-commercial-industrial-contacts
+
++ [*] (contact|get in touch with|communicate with|make contact with|approach|reach|notify|be in communication with) [*] (commercial|industrial) product [*]
+- get-info:igl-commercial-industrial-contacts
+
++ [*] (contact|get in touch with|communicate with|make contact with|approach|reach|notify|be in communication with) [*] (commercial|industrial) [*]
+- get-info:igl-commercial-industrial-contacts
+
++ [*] (commercial|industrial) product [*] (contact|get in touch with|communicate with|make contact with|approach|reach|notify|be in communication with) [*]
+- get-info:igl-commercial-industrial-contacts
+
++ [*] (commercial|industrial) [*] (contact|get in touch with|communicate with|make contact with|approach|reach|notify|be in communication with) [*]
+- get-info:igl-commercial-industrial-contacts
+
++ [*] csr policy [*]
+- get-info:what-csr-policy
+
++ [*] csr initiative [*]
+- get-info:what-csr-initiatives
+
++ [*] (see|glance|observe|view|examine|study|inspect|scan|survey|sight|peep|peek|glimpse|gaze|stare|gape|ogle|check) [*] csr gallery [*]
+- get-info:how-csr-gallery
+
++ [*] csr gallery [*] (see|glance|observe|view|examine|study|inspect|scan|survey|sight|peep|peek|glimpse|gaze|stare|gape|ogle|check) [*]
+- get-info:how-csr-gallery
+
++ [*] private (allottee|governmentallottee|customer|shopper|consumer|buyer|purchaser|user) [*] (new connection|newconnection) [*] online [*]
+- get-info:private-customer-new-connections
+
++ [*] private (allottee|governmentallottee|customer|shopper|consumer|buyer|purchaser|user) [*] online [*] (new connection|newconnection)  [*]
+- get-info:private-customer-new-connections
+
++ [*] (new connection|newconnection)  [*] online [*] private (allottee|governmentallottee|customer|shopper|consumer|buyer|purchaser|user) [*] 
+- get-info:private-customer-new-connections
+
++ [*] (new connection|newconnection) [*] private (allottee|governmentallottee|customer|shopper|consumer|buyer|purchaser|user) [*] online [*]
+- get-info:private-customer-new-connections
+
++ [*] online [*] (new connection|newconnection) [*] private (allottee|governmentallottee|customer|shopper|consumer|buyer|purchaser|user) [*] 
+- get-info:private-customer-new-connections
+
++ [*] online [*] private (allottee|governmentallottee|customer|shopper|consumer|buyer|purchaser|user) [*] (new connection|newconnection) [*]
+- get-info:private-customer-new-connections
+
++ [*] (new connection|newconnection) [*] private (allottee|governmentallottee|customer|shopper|consumer|buyer|purchaser|user) [*] 
+- get-info:private-customer-new-connections
+
++ [*] private (allottee|governmentallottee|customer|shopper|consumer|buyer|purchaser|user) [*] (new connection|newconnection) [*]
+- get-info:private-customer-new-connections
+
++ [*] (government|gov|govt) [*] (allottee|governmentallottee|customer|shopper|consumer|buyer|purchaser|user) [*] (new connection|newconnection) [*] online [*]
+- get-info:government-customer-new-connections
+
++ [*] (government|gov|govt) [*] (allottee|governmentallottee|customer|shopper|consumer|buyer|purchaser|user) [*] (new connection|newconnection) [*]
+- get-info:government-customer-new-connections
+
++ [*] (new connection|newconnection) [*] online [*] government [*] (allottee|governmentallottee|customer|shopper|consumer|buyer|purchaser|user) [*] [*]
+- get-info:government-customer-new-connections
+
++ [*] (new connection|newconnection) [*] government [*] (allottee|governmentallottee|customer|shopper|consumer|buyer|purchaser|user) [*][*] online [*]
+- get-info:government-customer-new-connections
+
++ [*] online [*] (new connection|newconnection) [*] government [*] (allottee|governmentallottee|customer|shopper|consumer|buyer|purchaser|user) [*]
+- get-info:government-customer-new-connections
+
++ [*] online [*] government [*] (allottee|governmentallottee|customer|shopper|consumer|buyer|purchaser|user) [*] (new connection|newconnection)  [*]
+- get-info:government-customer-new-connections
+
++ [*] government [*] (allottee|governmentallottee|customer|shopper|consumer|buyer|purchaser|user) [*] (new connection|newconnection)  [*]
+- get-info:government-customer-new-connections
+
++ [*] (new connection|newconnection) [*] private (allottee|governmentallottee|customer|shopper|consumer|buyer|purchaser|user) [*] 
+- get-info:government-customer-new-connections
+
++ [*] (insta|instant) payment [*]
+- get-info:insta-payment
+
++ [*] (customer|shopper|consumer|buyer|purchaser|user|care|support|helpline|number|contact) [*] (png|pn|pg) [*]
+- get-info:customer-png-users
+
++ [*] (png|pn|pg) [*] (customer|shopper|consumer|buyer|purchaser|user)(care|support|helpline|number|contact) [*]
+- get-info:customer-png-users
+
++ [*] (contact|get in touch with|communicate with|make contact with|approach|reach|notify|be in communication with|number) [*] (emergency|crisis|urgent situation|extremity|exigency) [*]
+- get-info:contact-emergency-leakage
+
++ [*] (emergency|crisis|urgent situation|extremity|exigency) [*] (contact|get in touch with|communicate with|make contact with|approach|reach|notify|be in communication with|number) [*]
+- get-info:contact-emergency-leakage
+
++ [*] (customer|shopper|consumer|buyer|purchaser|user|care|support|helpline|number|contact) [*] (emergency|crisis|urgent situation|extremity|exigency) [*]
+- get-info:contact-emergency-leakage
+
++ [*] (emergency|crisis|urgent situation|extremity|exigency) [*] (customer|shopper|consumer|buyer|purchaser|user|care|support|helpline|number|contact) [*]
+- get-info:contact-emergency-leakage
+
++ (emergency|crisis|urgent situation|extremity|exigency|emergency leakage|leakage)
+- get-info:contact-emergency-leakage
+
++ [*] (customer|shopper|consumer|buyer|purchaser|user) [*] (login|open) [*]
+- get-info:customer-login
+
++ [*] (login|open) [*] (customer|shopper|consumer|buyer|purchaser|user) [*]
+- get-info:customer-login
+
++ [*] (update|amend|renew|revise|up to date|submit) [*] (contact|personal) [*] (particular|feature|characteristic|ingredient|attribute|item|specific|fact|piece of information|point|factor|element|circumstance|consideration|aspect|facet|side|part|unit|component|constituent|member|accessory|detail|information) [*]
+- get-info:update-contact-detail
+
++ [*] (contact|personal) [*] (particular|feature|characteristic|ingredient|attribute|item|specific|fact|piece of information|point|factor|element|circumstance|consideration|aspect|facet|side|part|unit|component|constituent|member|accessory|detail|information) [*] (update|amend|renew|revise|up to date|submit) [*]
+- get-info:update-contact-detail
+
++ [*] (update|amend|renew|revise|up to date|submit|fill) [*] (number|detail) [*]
+- get-info:update-contact-detail
+
++ [*] private [*] (accomodation|customer|shopper|consumer|buyer|purchaser|user) [*] registration form [*]
+- get-info:private-customer-registration-form
+
++ [*] registration form [*] private [*] (accomodation|customer|shopper|consumer|buyer|purchaser|user) [*]
+- get-info:private-customer-registration-form
+
++ [*] government [*] (accomodation|customer|shopper|consumer|buyer|purchaser|user) [*] registration form [*]
+- get-info:government-customer-registration-form
+
++ [*] registration form [*] government [*] (accomodation|customer|shopper|consumer|buyer|purchaser|user) [*]
+- get-info:government-customer-registration-form
+
++ [*] (download|get|acquire|obtain|receive|gain) [*] emi (schedule|plan|programme|timetable|scheme) [*]
+- get-info:download-emi-schedule
+
++ [*] (download|get|acquire|obtain|receive|gain) [*] emi(schedule|plan|programme|timetable|scheme) [*]
+- get-info:download-emi-schedule
+
++ [*] emi (schedule|plan|programme|timetable|scheme) [*] (download|get|acquire|obtain|receive|gain) [*]
+- get-info:download-emi-schedule
+
++ [*] emi(schedule|plan|programme|timetable|scheme) [*] (download|get|acquire|obtain|receive|gain) [*]
+- get-info:download-emi-schedule
+
++ [*] (download|get|acquire|obtain|receive|gain) [*] noc [*]
+- get-info:download-noc	
+
++ [*] noc [*] (download|get|acquire|obtain|receive|gain)  [*]
+- get-info:download-noc
+
++ [*] (prepaid gas balance|prepaid balance) [*]
+- get-info:prepaid-gas-balance
+
++ [*] (recharge|refill) [*] prepaid meter [*]
+- get-info:online-rechrge-prepaid-meter
+
++ [*] prepaid meter [*] (recharge|refill) [*]
+- get-info:online-rechrge-prepaid-meter	
+
++ [*] (igl smart card|iglsmartcard) [*]
+- get-info:igl-smart-card-program
+
++ [*] online [*] payment [*] tata (powerddl|power ddl|power) [*]
+- get-info:online-payment-tata-power
+
++ [*] online [*] tata (powerddl|power ddl|power) [*] payment [*]
+- get-info:online-payment-tata-power
+
++ [*] payment [*] online [*] tata (powerddl|power ddl|power) [*]
+- get-info:online-payment-tata-power
+
++ [*] payment [*] tata (powerddl|power ddl|power) [*] online [*]
+- get-info:online-payment-tata-power
+
++ [*] tata (powerddl|power ddl|power) [*] online [*] payment [*]
+- get-info:online-payment-tata-power
+
++ [*] tata (powerddl|power ddl|power) [*] payment [*] online [*]
+- get-info:online-payment-tata-power
+
++ [*] tata (powerddl|power ddl|power) [*] payment [*]
+- get-info:online-payment-tata-power
+
++ [*] payment [*] tata (powerddl|power ddl|power) [*]
+- get-info:online-payment-tata-power
+
++ [*] mutation [*] (particular|feature|characteristic|ingredient|attribute|item|specific|fact|piece of information|point|factor|element|circumstance|consideration|aspect|facet|side|part|unit|component|constituent|member|accessory|detail) [*]
+- get-info:search-mutation-detail
+
++ [*] (particular|feature|characteristic|ingredient|attribute|item|specific|fact|piece of information|point|factor|element|circumstance|consideration|aspect|facet|side|part|unit|component|constituent|member|accessory|detail) [*] mutation [*]
+- get-info:search-mutation-detail
+
++ [*] igl [*] (facebook|twitter|youtube|instagram|social media|socialmedia) [*]
+- get-info:seach-igl-social-media
+
++ [*] (facebook|twitter|youtube|instagram|social media|socialmedia) [*] igl [*]
+- get-info:seach-igl-social-media
+
++ [*] (email|mail) id [*] igl [*]
+- get-info:igl-email
+
++ [*] (email|mail) [*] igl [*]
+- get-info:igl-email
+
++ [*] (email|mail)id [*] igl [*]
+- get-info:igl-email
+
++ [*] igl [*] (email|mail) id [*]
+- get-info:igl-email
+
++ [*] igl [*] (email|mail) [*]
+- get-info:igl-email
+
++ [*] igl [*] (email|mail)id [*]
+- get-info:igl-email
+
++ (email|mail)id
+- get-info:igl-email
+
++ (email|mail) id
+- get-info:igl-email
+
++ (email|mail)
+- get-info:igl-email
+
++ [*] (live chat|livechat|love chat) [*]
+- get-info:live-chat
+
++ [*] (contact|help|helpline|customer care|number) [*] igl [*]
+- get-info:contact-us
+
++ (contact|help|helpline|customer care|number|contact us|contactus|contact details|contact detail)
+- get-info:contact-us
+
++ (contact|help|helpline|customer care|contact us|contactus|customer care) (number|num)
+- get-info:contact-us
+
++ gas
+- get-info:gas
+
++ what [*] gas [*]
+- get-info:gas
+
++ [*] (know|about|mean|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*] gas [*]
+- get-info:gas
+
++ [*] gas [*] (know|about|mean|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*]
+- get-info:gas
+
++ (automotive fuel|lpg|autogas|automotive fuellpgautogas) [*]
+- get-automotive-fuel-lpg-autogas
+
++ what [*] (automotive fuel|lpg|autogas|automotive fuellpgautogas) [*]
+- get-automotive-fuel-lpg-autogas
+
++ [*] (know|about|mean|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*] (automotive fuel|lpg|autogas|automotive fuellpgautogas) [*]
+- get-info:automotive-fuel-lpg-autogas
+
++ [*] (automotive fuel|lpg|autogas|automotive fuellpgautogas) [*] (know|about|mean|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*]
+- get-info:automotive-fuel-lpg-autogas

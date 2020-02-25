@@ -1,0 +1,444 @@
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What is Natural Gas?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ what [*] (png|pg|pn)
+- product:what-natural-gas
+
++ png
+- product:what-natural-gas
+
++ [*] (know|about|mean|meaning|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*] (png|pg|pn) [*]
+- product:what-natural-gas
+
++ [*] (png|pg|pn) [*] (know|about|mean|meaning|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*]
+- product:what-natural-gas
+
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Where is PNG stored in Delhi?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (png|pg|pn) [*] (stored|store|kept|keep|reserve|stow|stockpile|lay|put away|put|deposit|save|hoard|cache) [*]
+- product:where-png-stored-delhi
+
++ [*] (stored|store|kept|keep|reserve|stow|stockpile|lay|put away|put|deposit|save|hoard|cache) [*] (png|pg|pn) [*]
+- product:where-png-stored-delhi
+
++ where [*] (png|pg|pn) [*] (stored|store|kept) [*] (delhi|deeli|new delhi|new deeli) [*]
+- product:where-png-stored-delhi
+
++ [*] (delhi|deeli|new delhi|new deeli) [*] where [*] (png|pg|pn) [*] (stored|store|kept) [*]
+- product:where-png-stored-delhi
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Is the supply of PNG regular?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (png|pg|pn) [*] (regular|available|continue) [*]
+- product:png-supply-regular
+
++ [*] (regular|available|continue) [*] (png|pg|pn) [*]
+- product:png-supply-regular
+
++ [*] supply [*] (png|pg|pn) [*]
+- product:png-supply-regular
+
++ [*] (png|pg|pn) [*] supply [*]
+- product:png-supply-regular
+
++ [*] supply [*] (png|pg|pn) [*] (regular|regulars|regularly|regularly) [*]
+- product:png-supply-regular
+
++ [*] (png|pg|pn) [*] supply [*] (regular|regulars|regularly|regularly) [*]
+- product:png-supply-regular
+
++ [*] (conversion|conversions|converting|convert|converted) [*] lpg [*] (appliance|appliances|product|products|good|goods) [*] (png|pg|pn) [*]
+- product:lpg-png-conversion
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What changes are required for conversion of an LPG appliance to be PNG friendly?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] lpg [*] (appliance|appliances|product|products|good|goods) [*] (conversion|conversions|converting|convert|converted) [*] (png|pg|pn) [*]
+- product:lpg-png-conversion
+
++ [*] lpg [*] (cylinders|cylinder) [*] (cooking|baking|cooked|baked) [*] (appliance|appliances|product|products|good|goods) [*] (conversion|conversions|converting|convert|converted) [*]
+- product:lpg-after-conversion
+
++ [*] (appliance|appliances|product|products|good|goods) [*] (conversion|conversions|converting|convert|converted) [*]
+- product:lpg-after-conversion
+
++ [*] (conversion|conversions|converting|convert|converted) [*] (appliance|appliances|product|products|good|goods) [*]
+- product:lpg-after-conversion
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What becomes of the LPG cylinders after the cooking appliance gets converted?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ [*] (cooking|baking|cooked|baked) [*] (appliance|appliances|product|products|good|goods) [*] (conversion|conversions|converting|convert|converted) [*] lpg [*] (cylinders|cylinder) [*]
+- product:lpg-after-conversion
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What is a domestic PNG connection?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ (domestic png connection|domestic png|domestic png connections)
+- product:domestic-png-connection
+
++ what [*] domestic png
+- product:domestic-png-connection
+
++ [*] (domestic png connection|domestic png|domestic png connections) [*] (what|may|how|can|tell|shall|about) [*]
+- product:domestic-png-connection
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What is the cost of getting a PNG connection?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (cost|costs|price|prices|charge|charges|fee|fees|money) [*] (png|pg|pn) [*] (connection|connections) [*]
+- product:cost-png-connection
+
++ [*] (png|pg|pn) [*] (connection|connections) [*] (cost|costs|price|prices|charge|charges|fee|fees|money) [*]
+- product:cost-png-connection
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: How are customer queries and complaints attended to?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (customer|customers|user|users) [*] (queries|query|complaints|complain|complains) [*]
+- product:customer-queries-complaint
+
++ [*] (queries|query|complaints|complain|complains) [*] (customer|customers|user|users) [*]
+- product:customer-queries-complaint
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What is CNG?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ what [*] cng 
+- product:what-cng
+
++ what [*] cng (mean|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*]
+- product:what-cng
+
++ cng 
+- product:what-cng
+
++ [*] (know|about|mean|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*] cng [*]
+- product:what-cng
+
++ [*] cng [*] (know|about|mean|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) 
+- product:what-cng
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Is CNG safe?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] cng [*] (safe|safety|protected from danger|protected from harm|shielded|sheltered|guarded|defended|secure|safe and sound|out of harms way|all right) [*]
+- product:is-cng-safe
+
++ [*] (safe|safety|protected from danger|protected from harm|shielded|sheltered|guarded|defended|secure|safe and sound|out of harms way|all right) [*] cng [*]
+- product:is-cng-safe
+
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What is involved in converting a vehicle to a CNG-friendly one?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (conversion|conversions|converting|convert|converted) [*] (vehicle|vehicles|cars|car) [*] cng [*]
+- product:converting-cng-friendly
+
++ [*] (vehicle|vehicles|cars|car) [*] (conversion|conversions|converting|convert|converted) [*] cng [*]
+- product:converting-cng-friendly
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Can a car, fitted with CNG conversion kit, run on Petrol after its CNG gets over?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (vehicle|vehicles|cars|car) [*] (conversion|conversions|converting|convert|converted) [*] cng [*] (kit|kits|tools|tool) [*] petrol [*]
+- product:car-fitted-cng-conversion-kit
+
++ [*] (vehicle|vehicles|cars|car) [*] petrol [*] (conversion|conversions|converting|convert|converted) [*] cng [*]
+- product:car-fitted-cng-conversion-kit
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What are the dimensions and weight of a CNG cylinder?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (dimensions|weight|dimension|size|lenght) [*] cng [*] (cylinder|cylinders) [*]
+- product:dimension-weight-cng-cylinder
+
++ [*] cng [*] (cylinder|cylinders) [*] (dimensions|weight|dimension|size|lenght) [*]
+- product:dimension-weight-cng-cylinder
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What is the capacity of a cylinder, and mileage from one fill? How does one get to know the quantity of CNG left in the cylinder?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (capacity|capacities|capicity) [*] cng [*] (cylinder|cylinders) [*] mileage [*]
+- product:capacity-cylinder
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What is the pressure of CNG in a cylinder? Is refuelling of a cylinder safe, given the pressure?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (pressure|pressures) [*] cng [*] (cylinder|cylinders) [*] 
+- product:pressure-cng
+
++ [*] cng [*] (cylinder|cylinders) [*] (pressure|pressures) [*]
+- product:pressure-cng
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: How much will be the saving after conversion to CNG?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ how [*] (saving|savings) [*] (conversion|conversions|converting|convert|converted) [*] cng [*]
+- product:saving-conversion-cng
+
++ [*] (conversion|conversions|converting|convert|converted) [*] cng [*] how [*] (saving|savings) [*]
+- product:saving-conversion-cng
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Does CNG kit require servicing?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] cng [*] (kit|kits) [*] (servicing|service) [*]
+- product:cng-kit-servicing
+
++ [*] (servicing|service) [*] cng [*] (kit|kits) [*]
+- product:cng-kit-servicing
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Does CNG have any harmful effect on the engine?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] cng [*] (harmful|harms|harm) [*] (engine|engines|ill|negative) [*]
+- product:cng-harmful-effect-engine
+
++ [*] (engine|engines) [*] cng [*] (harmful|harms|harm|ill|negative) [*]
+- product:cng-harmful-effect-engine
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Can a diesel vehicle be converted to CNG?
+Done
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (diesel|diesels) [*] (vehicle|vehicles|cars|car) [*] (conversion|conversions|converting|convert|converted|change|changed|transform|transformed) [*] cng [*]
+- product:diesel-vehicle-cng
+
++ [*] (conversion|conversions|converting|convert|converted|change|changed|transform|transformed) [*] cng [*] (diesel|diesels) [*] (vehicle|vehicles|cars|car) [*]
+- product:diesel-vehicle-cng
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Why are exhaust fumes so small in CNG-run vehicles?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (exhaust|exhaustes|generate) [*] (fumes|fume|smoke|smokes) [*] (small|less) [*] cng [*] (vehicle|vehicles|cars|car) [*]
+- product:exhaust-fumes-small-cng
+
++ [*] cng [*] (vehicle|vehicles|cars|car) [*] (exhaust|exhaustes|generate) [*] (fumes|fume|smoke|smokes) [*] (small|less) [*]
+- product:exhaust-fumes-small-cng
+	
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: How does large-scale CNG usage benefit the country?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (large scale|large scales) [*] cng [*] (benefit|benifits|benefited) [*] (countries|country) [*]
+- product:large-scale-cng-usage
+
++ [*]  (countries|country) [*] [*] (benefit|benifits|benefited)[*] (large scale|large scales) [*] cng  [*]
+- product:large-scale-cng-usage
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: In which countries are natural gas vehicles popular?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (countries|country) [*] (natural|naturals) [*] (gas|gases) [*] (vehicle|vehicles|cars|car) [*] (popular|uses|famous) [*]
+- product:natural-gas-popular
+
++ [*] (popular|uses|famous) [*] (countries|country) [*] (natural|naturals) [*] (gas|gases) [*]
+- product:natural-gas-popular
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: The invoices are  Retail and at time Estimated . What does it mean? 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (invoices|invoice) [*] (retail|retails|retailed|retailing) [*] time [*] (estimated|estimate) [*] 
+- product:invoice-retail-time-estimate
+
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: If the premises are vacant, can I avail a 'Not in Use' facility. Is it beneficial to the customer? 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (premises|premise|place|places|home) [*] (vacant|vacancy) [*] (not in use|not using|no uses) [*] (facility|facilities|service|services) [*]
+- product:premises-vacant
+
++ [*] (not in use|not using|no uses) [*] (facility|facilities|service|services) [*] (premises|premise|place|places|home) [*] (vacant|vacancy) [*]
+- product:premises-vacant
+
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: I have not received bill, how can I get a duplicate copy? 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ [*] (not|unable|not able) [*] (received|receive|get|got) [*] (bill|bills) [*] (duplicate|another|same|zerox) [*] (copy|copies) [*] 
+- product:not-recived-bill-get-duplicate-copy
+
++ [*] (duplicate|another|same|zerox) [*] (copy|copies) [*] (bill|bills) [*] (not|unable|not able) [*] (received|receive|get|got) [*]
+- product:not-recived-bill-get-duplicate-copy
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What is IGL?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] what [*] igl [*]
+- product:what-igl
+
++ [*] (about|know|about|mean|means|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) (igl|indraprastha gas|indraprastha gas limited) [*]
+- product:what-igl
+
++ [*] (igl|indraprastha gas|indraprastha gas limited) [*] (about|know|about|mean|means|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*]
+- product:what-igl
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What are the business objectives of IGL?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (business|businesses) [*] (objectives|objective|strategy|stratgy|strategies) [*] (igl|indraprastha gas|indraprastha gas limited) [*]
+- product:business-obj-igl
+
++ [*] (igl|indraprastha gas|indraprastha gas limited) [*] (business|businesses) [*] (objectives|objective|strategy|stratgy|strategies) [*]
+- product:business-obj-igl
+
++ [*] (business|businesses) [*] (objectives|objective|strategy|stratgy|strategies) [*]
+- product:business-obj-igl
+
++ (objectives|objective|strategy|stratgy|strategies)
+- product:business-obj-igl
+
+
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What is Future Outlook of IGL?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (future|futures|outlook|outlooks) [*] (igl|indraprastha gas|indraprastha gas limited) [*]
+- product:future-igl
+
++ [*] (igl|indraprastha gas|indraprastha gas limited) [*] (future|futures|outlook|outlooks) [*]
+- product:future-igl
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What is MISSION of IGL?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ [*] (mision|misions|mission|missions|goal|goals) [*] igl [*]
+- product:mission-igl
+
++ [*] igl [*] (mision|misions|mission|missions|goal|goals) [*]
+- product:mission-igl
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What is VISION of IGL?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (vision|visions) [*] igl [*]
+- product:vision-igl
+
++ [*] igl [*] (vision|visions) [*]
+- product:vision-igl
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Who are the Board of Directors of IGL?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (board of directors|bod|board of director) [*] igl [*]
+- product:bod-igl
+
++ [*] igl [*] (board of directors|bod|board of director) [*]
+- product:bod-igl
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Where is CNG Stored in Delhi/CNG Storage/CNG Storage points?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] cng [*] (stored|store|kept|keep|reserve|stow|stockpile|lay|put away|put|deposit|save|hoard|cache|storage) [*]
+- product:where-cng-stored-delhi
+
++ [*] (stored|store|kept|keep|reserve|stow|stockpile|lay|put away|put|deposit|save|hoard|cache|storage) [*] cng [*]
+- product:where-cng-stored-delhi
+
++ where [*] cng [*] (stored|store|kept|storage) [*] (delhi|deeli|new delhi|new deeli) [*]
+- product:where-cng-stored-delhi
+
++ [*] (delhi|deeli|new delhi|new deeli) [*] where [*] cng [*] (stored|store|kept|storage) [*]
+- product:where-cng-stored-delhi

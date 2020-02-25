@@ -1,0 +1,98 @@
++ [*] (pay|paid|payment|paying|payments) [*] (bill|bills|billing|billings)
+- payment:how-pay-bill
+
++ [*] (bill|bills|billing|billings) [*] (pay|paid|payment|paying|payments) [*] how
+- payment:how-pay-bill
+
++ (pay|paid|payment|paying|payments) (bill|bills|billing|billings)
+- payment:how-pay-bill
+
++ (bill|bills|billing|billings) (pay|paid|payment|paying|payments)
+- payment:how-pay-bill
+
++ want [*] pay [*] (bill|bills)
+- payment:how-pay-bill
+
++ where [*] pay [*] (bill|bills)
+- payment:how-pay-bill
+
++ where [*] drop [*] cheque [*]
+- payment:cheque-payment-where-drop
+
++ drop [*] cheque
+- payment:cheque-payment-where-drop
+
++ cheque [*] drop
+- payment:cheque-payment-where-drop
+
++ how [*] can [*] deposit [*] cash [*] bill [*]  payment
+- payment:deposit-cash-for-bill
+
++ [*] deposit [*] cash [*] bill [*]
+- payment:deposit-cash-for-bill
+
++ [*] bill [*] deposit [*] cash [*]
+- payment:deposit-cash-for-bill
+
++ which [*] (cards|card) [*] (accepted|accepts|accept) [*] (bill|bills|billing|billings) [*] (pay|paid|payment|paying|payments) [*]
+- payment:which-card-accepted
+
++ [*] (cards|card) [*] (accepted|accepts|accept) [*] (bill|bills|billing|billings) [*] (pay|paid|payment|paying|payments) [*] which
+- payment:which-card-accepted
+
++ [*] cards [*] accepted [*] bill [*] payment
+- payment:which-card-accepted
+
++ [*] card [*] payment [*] accepted [*] pay [*] bill
+- payment:which-card-accepted
+
++ how [*] (make|do|done) [*] online [*] (pay|paid|payment|paying|payments) [*] (bill|bills|billing|billings) [*]
+- payment:online-payment-bill
+
++ (how|can) [*] (pay|paid|payment|paying|payments) [*] (bill|bills|billing|billings) [*] online [*] 
+- payment:online-payment-bill
+
++ [*] online [*] (payment|pay|settle|give) [*] (bill|bills) [*]
+- payment:online-payment-bill
+
++ [*] (payment|pay|settle|give) [*] (bill|bills) [*] online [*]
+- payment:online-payment-bill
+
++ [*] (options|option|method|procedure|procedures) [*] (available|avail|their) [*] check [*] (previous|earlier) [*] (pay|paid|payment|paying|payments) [*] (details|detail) [*]
+- payment:options-available-check-previous-payment
+
++ [*] (check|checkup|examine|inspect|look at|look over|scrutinize|scan|survey) [*] payment [*] (details|detail)
+- payment:options-available-check-previous-payment
+
++ [*] payment [*] (details|detail) [*] (check|checkup|examine|inspect|look at|look over|scrutinize|scan|survey) [*]
+- payment:options-available-check-previous-payment
+
++ [*] (details|detail) [*] payment [*] (check|checkup|examine|inspect|look at|look over|scrutinize|scan|survey) [*]
+- payment:options-available-check-previous-payment
+
++ [*] payment [*] complaint [*] 
+- payment:register-payment-complaint
+
++ [*] complaint [*] payment [*] 
+- payment:register-payment-complaint
+ 
++ [*] payment [*] update [*]
+- payment:when-online-payment-upadate
+
++ [*] update [*] payment [*]
+- payment:when-online-payment-upadate
+
++ [*] payment [*] drop box [*]
+- payment:payment-through-dropbox
+
++ [*] drop box [*] payment [*]
+- payment:payment-through-dropbox
+
++ [*] (not|no) [*] (paid|pay|payment) [*] (bill|bills) [*]
+- payment:what-concequences-not-paid-bill
+
++ [*] (bill|bills) [*] (not|no) [*] (paid|pay|payment) [*]
+- payment:what-concequences-not-paid-bill
+
++ [*] (rate late payment surcharge|rate of late payment surcharge|lpsc) [*]
+- payment:rate-lpsc

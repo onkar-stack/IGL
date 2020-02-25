@@ -1,0 +1,158 @@
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Is it better to place the meter inside or outside Kitchen?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] better [*] place [*] meter [*] (inside|outside) [*] kitchen [*]
+- meter-reading:meter-reading
+
++ [*] meter [*] (inside|outside) [*] kitchen [*]
+- meter-reading:meter-reading
+
++ [*] meter [*] kitchen [*]
+- meter-reading:meter-reading
+
++ [*] kitchen [*] meter [*]
+- meter-reading:meter-reading
+
++ where [*] place [*] meter [*] (inside|outside) [*] kitchen [*]
+- meter-reading:meter-reading
+
++ [*] meter [*] placed  [*] (inside|outside) [*] kitchen [*]
+- meter-reading:meter-reading
+
++ [*] better [*] meter [*] place [*] kitchen
+- meter-reading:meter-reading
+
++ [*] better [*] place [*] meter [*]
+- meter-reading:meter-reading
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: How do I know my meter number?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ what [*] meter number [*]
+- meter-reading:know-meter-number
+
++ [*] (know|about|mean|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*] (meter number|meternumber) [*]
+- billing:what-ebill
+
++ [*] (meter number|meternumber) [*] (know|about|mean|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) 
+- billing:what-ebill
+
++ [*] get [*] my [*] meter [*] number
+- meter-reading:know-meter-number
+
++ (how|want) [*] know [*] meter [*] number
+- meter-reading:know-meter-number
+
++ where [*] meter [*] number [*] 
+- meter-reading:know-meter-number
+
++ (meter number|meter no|metre no|meter numbers)
+- meter-reading:know-meter-number
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: When does meter reading happens?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ [*] meter [*] reading [*] (happen|happens|calculate|calculated) [*]
+- meter-reading:when-meter-reading-happen
+
++ [*] (happen|happens|calculate|calculated) [*] meter [*] reading [*] 
+- meter-reading:when-meter-reading-happen
+
++ [*] time [*] meter [*] reading [*] 
+- meter-reading:when-meter-reading-happen
+
++ [*](read|reading) [*] meter
+- meter-reading:when-meter-reading-happen
+
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: There was note at my door saying my meter reading was missed. What does it mean?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] got [*] note [*] (my|your) [*] meter [*] reading [*] (missed|miss) [*]
+- meter-reading:meter-reading-missed
+
++ [*] meter [*] reading [*] (missed|miss|missed) [*]
+- meter-reading:meter-reading-missed
+
++ [*] (missed|miss|missed) [*] meter [*] reading [*]
+- meter-reading:meter-reading-missed
+
+.+ [*] (missed|miss|missed) [*] reading [*]
+- meter-reading:meter-reading-missed
+
++ (how|where) [*] (submit|submitted|given) [*] (reading|readings) [*] (missed|misses|miss) [*]
+- meter-reading:submit-reading-if-missed
+
++ (how|where) [*] (submit|submitted|given) [*] (missed|misses|miss) [*] (reading|readings) [*] 
+- meter-reading:submit-reading-if-missed
+
++ [*] (reading|readings) [*] (missed|misses|miss) [*] (how|where) [*] (submit|submitted|given) [*]
+- meter-reading:submit-reading-if-missed
+
++ [*] (missed|misses|miss) [*] (reading|readings) [*] (how|where) [*] (submit|submitted|given) [*]
+- meter-reading:submit-reading-if-missed
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: Can I do self-submission of reading for billing?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ can [*] self [*] (submission|submit|sumission|submition) [*] (reading|billing|bill|readings) [*]
+- meter-reading:self-submition-reading-bill
+
++ [*] (reading|billing|bill|readings) [*] self [*] (submission|submit|sumission|submition) [*]
+- meter-reading:self-submition-reading-bill
+
++ [*] (submission|submit|sumission|submition) [*] (reading|billing|bill|readings) [*] (self|myself) [*] 
+- meter-reading:self-submition-reading-bill
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: How to read the meter. Which digits to note?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ [*] how [*] (read|reading|readings) [*] (meter|metre) [*] (digits|digit|number|numbers) [*] (note|write|take) [*]
+- meter-reading:how-read-meter
+
++ [*] (digits|digit|number|numbers) [*] (note|write|take) [*] (read|reading|readings) [*] (meter|metre) [*]
+- meter-reading:how-read-meter
+
++ [*] (digits|digit|number|numbers) [*] (note|write|take) [*] (meter|metre) [*] (read|reading|readings) [*]
+- meter-reading:how-read-meter
+
++ [*] read [*] (meter|metre)[*]
+- meter-reading:how-read-meter
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: The meter reading on my bill is wrong. What should I do?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (meter|metre) [*] (read|reading|readings) [*] (bill|bills) [*] (wrong|rong) [*]
+- meter-reading:meter-reading-wrong
+
++ [*] (read|reading|readings) [*] (meter|metre) [*] (bill|bills) [*] (wrong|rong) [*]
+- meter-reading:meter-reading-wrong
+
++ [*] (meter|metre) [*] (read|reading|readings) [*] (wrong|rong) [*]
+- meter-reading:meter-reading-wrong
+
++ [*] (read|reading|readings) [*] (meter|metre) [*] (wrong|rong) [*]
+- meter-reading:meter-reading-wrong

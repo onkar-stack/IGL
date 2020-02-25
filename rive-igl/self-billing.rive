@@ -1,0 +1,79 @@
+/*
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: What is self-billing?
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ what [*] (selfbilling|self billing|selfbill|self bill) [*]
+- self-billing:what-self-billing
+
++ (selfbilling|self billing|selfbill|self bill)
+- self-billing:what-self-billing
+
++ [*] (know|about|mean|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*] (selfbilling|self billing|selfbill|self bill) [*]
+- self-billing:what-self-billing
+
++ [*] (selfbilling|self billing|selfbill|self bill) [*] (know|about|mean|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*]
+- self-billing:what-self-billing
+
+
+
+/*
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: How to self-bill. What are the steps involved?
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++  [*] (steps|step|process|procedure|procedures|action|actions|agenda|agendas|plan|plans|method|methods|practice|practices|scheme|schemes|strategy|strategies|setup|set up) [*] (selfbilling|self billing|selfbill|self bill) [*]
+- self-billing:how-self-bill
+
++ [*] want [*] (steps|step|process|procedure|procedures|action|actions|agenda|agendas|plan|plans|method|methods|practice|practices|scheme|schemes|strategy|strategies|setup|set up) [*] (selfbilling|self billing|selfbill|self bill) [*]
+- self-billing:how-self-bill
+
++ [*] (selfbilling|self billing|selfbill|self bill) [*] (steps|step|process|procedure|procedures|action|actions|agenda|agendas|plan|plans|method|methods|practice|practices|scheme|schemes|strategy|strategies|setup|set up) [*]
+- self-billing:how-seft-billing
+
+/*
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: When will I receive the bill in this case.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
++ [*] when [*] (recieve|collect|get|take|be given|begiven) [*] (selfbilling|self billing|selfbill|self bill) [*]
+- self-billing:when-receive-bill
+
++ when [*] (recieve|collect|get|take|be given|begiven) [*] (selfbilling|self billing|selfbill|self bill) [*] this [*] case [*] 
+- self-billing:when-receive-bill
+
++ [*] this [*] case [*] when [*] (recieve|collect|get|take|be given|begiven) [*] (selfbilling|self billing|selfbill|self bill) [*]
+- self-billing:when-receive-bill
+
+/*
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: When can I do self-billing. Clarify the time period?
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
++ [*]  (time period|time|timeperiod) [*] (selfbilling|self billing|selfbill|self bill) [*]
+- self-billing:time-period-self-bill
+
++ [*] (selfbilling|self billing|selfbill|self bill) [*]  (time period|time|timeperiod) [*]
+- self-billing:time-period-self-bill
+
++ [*] (how|when) [*] (selfbilling|self billing|selfbill|self bill) [*] (time period|time|timeperiod) [*]
+- self-billing:time-period-self-bill
+
++ [*] when [*] (selfbilling|self billing|selfbill|self bill) [*] 
+- self-billing:time-period-self-bill
+
+/*
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: How does self-billing benefits me?
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (benefits|benefit|goods|sake|advantage|convenience|profit|gain|profits|gains|good|profitable|convenient) [*] (selfbilling|self billing|selfbill|self bill) [*] 
+- self-billing:benefit-self-bill
+
++ [*] (selfbilling|self billing|selfbill|self bill) [*] (benefits|benefit|goods|sake|advantage|convenience|profit|gain|profits|gains|good|profitable|convenient) [*]
+- self-billing:benefit-self-bill
