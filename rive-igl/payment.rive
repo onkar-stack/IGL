@@ -1,92 +1,131 @@
-+ [*] (pay|paid|payment|paying|payments) [*] (bill|bills|billing|billings)
-- payment:how-pay-bill
-
-+ [*] (bill|bills|billing|billings) [*] (pay|paid|payment|paying|payments) [*] how
-- payment:how-pay-bill
-
-+ (pay|paid|payment|paying|payments) (bill|bills|billing|billings)
-- payment:how-pay-bill
-
-+ (bill|bills|billing|billings) (pay|paid|payment|paying|payments)
-- payment:how-pay-bill
-
-+ want [*] pay [*] (bill|bills)
-- payment:how-pay-bill
-
-+ where [*] pay [*] (bill|bills)
-- payment:how-pay-bill
-
-+ where [*] drop [*] cheque [*]
-- payment:cheque-payment-where-drop
-
-+ drop [*] cheque
-- payment:cheque-payment-where-drop
-
-+ cheque [*] drop
-- payment:cheque-payment-where-drop
-
-+ how [*] can [*] deposit [*] cash [*] bill [*]  payment
-- payment:deposit-cash-for-bill
-
-+ [*] deposit [*] cash [*] bill [*]
-- payment:deposit-cash-for-bill
-
-+ [*] bill [*] deposit [*] cash [*]
-- payment:deposit-cash-for-bill
-
-+ which [*] (cards|card) [*] (accepted|accepts|accept) [*] (bill|bills|billing|billings) [*] (pay|paid|payment|paying|payments) [*]
-- payment:which-card-accepted
-
-+ [*] (cards|card) [*] (accepted|accepts|accept) [*] (bill|bills|billing|billings) [*] (pay|paid|payment|paying|payments) [*] which
-- payment:which-card-accepted
-
-+ [*] cards [*] accepted [*] bill [*] payment
-- payment:which-card-accepted
-
-+ [*] card [*] payment [*] accepted [*] pay [*] bill
-- payment:which-card-accepted
-
-+ how [*] (make|do|done) [*] online [*] (pay|paid|payment|paying|payments) [*] (bill|bills|billing|billings) [*]
-- payment:online-payment-bill
-
-+ (how|can) [*] (pay|paid|payment|paying|payments) [*] (bill|bills|billing|billings) [*] online [*] 
-- payment:online-payment-bill
-
-+ [*] online [*] (payment|pay|settle|give) [*] (bill|bills) [*]
-- payment:online-payment-bill
-
-+ [*] (payment|pay|settle|give) [*] (bill|bills) [*] online [*]
-- payment:online-payment-bill
-
-+ [*] (options|option|method|procedure|procedures) [*] (available|avail|their) [*] check [*] (previous|earlier) [*] (pay|paid|payment|paying|payments) [*] (details|detail) [*]
-- payment:options-available-check-previous-payment
-
-+ [*] (check|checkup|examine|inspect|look at|look over|scrutinize|scan|survey) [*] payment [*] (details|detail)
-- payment:options-available-check-previous-payment
-
-+ [*] payment [*] (details|detail) [*] (check|checkup|examine|inspect|look at|look over|scrutinize|scan|survey) [*]
-- payment:options-available-check-previous-payment
-
-+ [*] (details|detail) [*] payment [*] (check|checkup|examine|inspect|look at|look over|scrutinize|scan|survey) [*]
-- payment:options-available-check-previous-payment
-
-+ [*] payment [*] complaint [*] 
-- payment:register-payment-complaint
-
-+ [*] complaint [*] payment [*] 
-- payment:register-payment-complaint
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------------
+How can I pay my bill?
+---------------------------------------------------------------------------------------------------------------------------------------------------
+*/
  
-+ [*] payment [*] update [*]
++ [*] (how|want) [*] (pay|payment) [*] bill [*]
+- payment:how-pay-bill
+
++ bill (pay|payment) 
+- payment:how-pay-bill
+
+
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Where can I drop my cheque. Cheque payment to be done in favour of? 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] drop [*] cheque [*]
+- payment:cheque-payment-where-drop
+
++ [*] cheque [*] drop [*]
+- payment:cheque-payment-where-drop
+
++ [*] cheque [*] (favour|favor) [*]
+- payment:cheque-payment-where-drop
+
++ [*] (favour|favor) [*] cheque [*]
+- payment:cheque-payment-where-drop
+
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Where can I deposit cash against my bill payment?
+---------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] deposit [*] (cash|money|amount) [*]
+- payment:deposit-cash-for-bill
+
++ [*] (cash|money|amount) [*] deposit [*]
+- payment:deposit-cash-for-bill
+
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Which cards are being accepted at IGL for bill payment? 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (debit card|debitcard|creditcard|credit card|card|visa|visa card|mastercard|master card|diners card|dinerscard|diner card|dinercard|rupaycard|rupay card|ru pay card) [*] (accept|receive|welcome|recognize|recognise|acknowledge) [*]
+- payment:which-card-accepted
+
++ [*] (accept|receive|welcome|recognize|recognise|acknowledge) [*] (debit card|debitcard|creditcard|credit card|card|visa|visa card|mastercard|master card|diners card|dinerscard|diner card|dinercard|rupaycard|rupay card|ru pay card) [*]
+- payment:which-card-accepted
+
+
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------------
+How to make online payment of Bills? 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] online [*] (payment|pay|settle|remittance|remission|settlement|discharge|clearance) [*]
+- payment:online-payment-bill
+
++ [*] (payment|pay|settle|remittance|remission|settlement|discharge|clearance) [*] online [*]
+- payment:online-payment-bill
+
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------------
+What options are available in case I want to check my previous payment details? 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
+
++ [*] (previous|earlier) [*] (payment|pay|settle|remittance|remission|settlement|discharge|clearance) [*]
+- payment:options-available-check-previous-payment
+
++ [*] (payment|pay|settle|remittance|remission|settlement|discharge|clearance) [*] (previous|earlier) [*]
+- payment:options-available-check-previous-payment
+
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------------
+Whom can I approach to register my payment related complaint? 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (payment|pay|settle|remittance|remission|settlement|discharge|clearance) [*] (complaint|complain|protest) [*] 
+- payment:register-payment-complaint
+
++ [*] (complaint|complain|protest) [*] (payment|pay|settle|remittance|remission|settlement|discharge|clearance) [*] 
+- payment:register-payment-complaint
+
+
+ 
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------------
+When will my online payment be updated in my account? 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] online [*] (payment|pay|settle|remittance|remission|settlement|discharge|clearance) [*] update [*]
 - payment:when-online-payment-upadate
 
-+ [*] update [*] payment [*]
++ [*] update [*] online [*] (payment|pay|settle|remittance|remission|settlement|discharge|clearance) [*]
 - payment:when-online-payment-upadate
 
-+ [*] payment [*] drop box [*]
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------------
+I made a payment through drop box but the invoice is showing arrears, what should I do?
+---------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (payment|pay|settle|remittance|remission|settlement|discharge|clearance) [*] (drop box|dropbox|box|physical|cheque|cheqe|check) [*]
 - payment:payment-through-dropbox
 
-+ [*] drop box [*] payment [*]
++ [*] (drop box|dropbox|box|physical|cheque|cheqe|check) [*] (payment|pay|settle|remittance|remission|settlement|discharge|clearance) [*]
 - payment:payment-through-dropbox
+
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------------
+What are the consequences, if I have not paid my bill? 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (no|not|none|never) (paid|pay|payment) [*]
+- payment:what-concequences-not-paid-bill
 
 + [*] (not|no) [*] (paid|pay|payment) [*] (bill|bills) [*]
 - payment:what-concequences-not-paid-bill
@@ -94,5 +133,14 @@
 + [*] (bill|bills) [*] (not|no) [*] (paid|pay|payment) [*]
 - payment:what-concequences-not-paid-bill
 
-+ [*] (rate late payment surcharge|rate of late payment surcharge|lpsc rate) [*]
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------------
+What is the rate of Late Payment Surcharge (LPSC) and how it is charged to Customer? 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
++ [*] (late payment surcharge|lpsc) [*] (charge|fee|price|tariff|amount|sum|figure|fare|rate|levy) [*]
+- payment:rate-lpsc
+
++ [*] (charge|fee|price|tariff|amount|sum|figure|fare|rate|levy) [*] (late payment surcharge|lpsc) [*]
 - payment:rate-lpsc

@@ -1,6 +1,6 @@
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q: What is the billing period for my bill?
+q: what is the bill|be billing period for my bill?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -13,7 +13,7 @@ Q: What is the billing period for my bill?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q: What is the system of billing?
+q: what is the system of billing?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -25,102 +25,86 @@ Q: What is the system of billing?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q: What unit of measurement is used?
+q: what unit of measurement is used?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ [*] (consumption|uses|utilization|expending|expenditure) [*] (measurement|quantification|quantifying|computation|calculation|mensuration|measured|measure) [*]
++ [*] (consumption|uses|utilization|expending|expenditure|unit) [*] (measurement|quantification|quantifying|computation|calculation|mensuration|measured|measure) [*]
 - billing:what-unit-measurement
 
-+ [*] (measurement|quantification|quantifying|computation|calculation|mensuration|measured|measure) [*] (consumption|uses|utilization|expending|expenditure) [*]
-- billing:what-unit-measurement
-
-+ [*] (measurement|quantification|quantifying|computation|calculation|mensuration|measured|measure) [*] unit [*]
-- billing:what-unit-measurement
-
-+ [*] unit [*] (measurement|quantification|quantifying|computation|calculation|mensuration|measured|measure) [*]
++ [*] (measurement|quantification|quantifying|computation|calculation|mensuration|measured|measure) [*] (consumption|uses|utilization|expending|expenditure|unit) [*]
 - billing:what-unit-measurement
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q: What is the basis of calculation of bill amount? 
+q: what is the basis of calculation of bill amount? 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ [*] (compute|reckon|figure|enumerate|determine|evaluate|quantify|assess|cost|design|plan|assess|worth|price|value|evaluate|assess|estimate|rate|give|list|fix|final|finalise|finalize|define|analyse|judge|measure|charge) [*] bill [*]
++ [*] (calculate|calculation|compute|reckon|figure|enumerate|determine|evaluate|quantify|assess|cost|design|plan|assess|worth|price|value|evaluate|assess|estimate|rate|give|list|fix|final|finalise|finalize|define|analyse|judge|measure|charge) [*] bill [*]
 - billing:basis-calculation-bill
 
-+ [*] bill [*] (compute|reckon|figure|enumerate|determine|evaluate|quantify|assess|cost|design|plan|assess|worth|price|value|evaluate|assess|estimate|rate|give|list|fix|final|finalise|finalize|define|analyse|judge|measure|charge) [*]
++ [*] bill [*] (calculate|calculation|compute|reckon|figure|enumerate|determine|evaluate|quantify|assess|cost|design|plan|assess|worth|price|value|evaluate|assess|estimate|rate|give|list|fix|final|finalise|finalize|define|analyse|judge|measure|charge) [*]
 - billing:basis-calculation-bill
 
 
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q: How do I get my bills?
+q: how do i get my bills?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ [*] (get|acquire|obtain|have|possession|receive|gain|earn|given) [*] bill [*]
++ [*] (get|acquire|obtain|have|possession|receive|gain|earn|given|give) [*] bill [*]
 - billing:how-get-my-bill
 
-+ [*] bill [*] (get|acquire|obtain|have|possession|receive|gain|earn|given) [*]
++ [*] bill [*] (get|acquire|obtain|have|possession|receive|gain|earn|given|give) [*]
 - billing:how-get-my-bill
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q: What is E bill?
+q: what is e bill|be bill?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-
-+ (ebill|e bill)
++ (ebill|e bill|be bill)
 - billing:what-ebill
 
-+ what [*] (ebill|e bill) [*]
++ what [*] (ebill|e bill|be bill) [*]
 - billing:what-ebill
 
-+ [*] (know|about|mean|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*] (ebill|e bill) [*]
++ [*] (know|about|mean|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*] (ebill|e bill|be bill) [*]
 - billing:what-ebill
 
 
-+ [*] (ebill|e bill) [*] (know|about|mean|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) 
++ [*] (ebill|e bill|be bill) [*] (know|about|mean|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) 
 - billing:what-ebill
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q: The invoices some time Retail and at times Estimated. What does it mean? 
+q: the invoices some time retail and at times estimated. what does it mean? 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
-
-+ [*] (invoices|invoice) [*] retail [*] (estimated|estimate)
+ 
++ [*] (invoices|invoice|bill) [*] (estimated|estimate|retail|relate) [*]
 - billing:invoice-time-retail
 
-+ [*] (invoices|invoice) [*] retail [*] (estimated|estimate) what [*] it [*] mean
++ [*] (estimated|estimate|retail|relate) [*] (invoices|invoice|bill) [*] 
 - billing:invoice-time-retail
-
-+ what [*] estimated [*] bill [*] do [*] calculate [*]
-- billing:what-estimated-bill
-
-+ how [*] calculate [*] (estimate|estimated) [*] bill 
-- billing:what-estimated-bill
-
-+ [*] calculate [*] (estimate|estimated) [*] bill 
-- billing:what-estimated-bill
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q: LPSC stands for? 
+q: lpsc stands for? 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
 + lpsc
 - billing:lpsc-stand-for
 
-+ [*] (lpsc|LPSC) [*] (stands|abbrevates|stand|abbrevate|means|mean) [*]
++ [*] (lpsc|l p s c) [*] (stands|abbrevates|stand|abbrevate|means|mean) [*]
 - billing:lpsc-stand-for
 
-+ what [*] lpsc [*]
++ what [*] (lpsc|l p s c) [*]
 - billing:lpsc-stand-for
 
 + [*] (know|about|mean|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*] lpsc [*]
@@ -131,47 +115,53 @@ Q: LPSC stands for?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q: I have not received bill, how can I get a duplicate copy? 
+q: i have not received bill, how can i get a duplicate copy? 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ [*] didnt [*] received [*]  bill [*] how [*] get [*] bill
++ [*] (duplicate|copy|replicate|reprint|print) [*] (bill|receipt) [*]
 - billing:duplicate-copy-bill
 
-/*
------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q: How can I subscribe for E bill?
------------------------------------------------------------------------------------------------------------------------------------------------------------------
-*/
++ [*] (bill|receipt) [*] (duplicate|copy|replicate|reprint|print) [*]
+- billing:duplicate-copy-bill
 
-+ [*] (subscribe|subscription|take) [*] (ebll|e bill) [*]
-- billing:subscribe-ebill
-
-+ [*] (ebll|e bill) [*] (subscribe|subscription|take) [*]
-- billing:subscribe-ebill
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q: What is Minimum Consumption charge on my bill?
+q: how can i subscribe for e bill?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Deleted
+*/
+
+
+/*
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+q: what is minimum consumption charge on my bill?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ [*] minimum [*] (charge|charges) [*] bill
++ [*] (minimum|minimal|least|smallest|least possible|slightest|lowest) [*] (charge|charges|fee|price|tariff|amount|sum|figure|fare|rate|levy) [*] bill [*]
 - billing:minimum-consumption-charge-bill
 
-+ [*] minimum [*] (charge|charges) [*] my [*] bill
++ [*] (charge|charges|fee|price|tariff|amount|sum|figure|fare|rate|levy)  [*] (minimum|minimal|least|smallest|least possible|slightest|lowest) [*] bill [*]
+- billing:minimum-consumption-charge-bill
+
++ [*] bill [*] (charge|charges|fee|price|tariff|amount|sum|figure|fare|rate|levy)  [*] (minimum|minimal|least|smallest|least possible|slightest|lowest) [*] 
 - billing:minimum-consumption-charge-bill
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q: My last bill was estimated and current reading is less than as mentioned on bill. What happens to my excess payment?
+q: my last bill was estimated and current reading is less than as mentioned on bill. what happens to my excess payment?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ [*] (estimate|estimated) [*] (current|present) [*] reading [*] less [*] excess [*] (payment|pay) [*]
++ [*] excess [*] payment [*]
 - billing:currentreading-less-than-mention
 
-+ [*] excess [*] (payment|pay) [*] (estimate|estimated) [*] (current|present) [*] reading [*] less [*] 
++ [*] (estimate|estimated) [*] (current|present) [*] (reading|raed) [*] less [*] excess [*] (payment|pay) [*]
+- billing:currentreading-less-than-mention
+
++ [*] excess [*] (payment|pay) [*] (estimate|estimated) [*] (current|present) [*] (reading|raed) [*] less [*] 
 - billing:currentreading-less-than-mention
 
 + [*] (pay|give|submit) [*] (excess|more|extra) [*] mistake [*]
@@ -182,12 +172,12 @@ Q: My last bill was estimated and current reading is less than as mentioned on b
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q: The meter reading on the bill is wrong or high?
+q: the meter reading on the bill is wrong or high?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ [*] meter [*] (wrong|high) [*]
++ [*] (meter|metre|bill) [*] (wrong|high) [*]
 - billing:meter-reading-bill-wrong
 
-+ [*] (wrong|high) [*] meter [*]
++ [*] (wrong|high) [*] (meter|metre|bill) [*]
 - billing:meter-reading-bill-wrong

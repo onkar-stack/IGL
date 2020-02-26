@@ -1,7 +1,7 @@
-+ [*] (business|igl) [*] (philosophy|policy|terminology|phraselogy|philosphy) [*]
++ [*] (business) [*] (philosophy|policy|terminology|phraselogy|philosphy) [*]
 - get-info:igl-businees-policy
 
-+ [*] (philosophy|policy|terminology|phraselogy|philosphy) [*] (business|igl) [*]
++ [*] (philosophy|policy|terminology|phraselogy|philosphy) [*] (business) [*]
 - get-info:igl-businees-policy
 
 + [*] (bankers|banker|auditors|auditor) [*]
@@ -103,16 +103,16 @@
 + [*] (png|pn|pg) [*] (good|sake|interest|welfare|well being|satisfaction|enjoyment|advantage|comfort|ease|convenience|benefit) [*]
 - get-info:benefits-png
 
-+ [*] (see|glance|observe|view|examine|study|inspect|scan|survey|sight|peep|peek|glimpse|gaze|stare|gape|ogle) [*] (igl pipeline network|iglpipelinenetwork|iglpipelineconnection|igl pipeline connection|iglpipeline connection|IGL pipeline network|IGLpipelinenetwork|IGLpipelineconnection|IGL pipeline connection|IGLpipeline connection) [*] 
++ [*] (see|glance|observe|view|examine|study|inspect|scan|survey|sight|peep|peek|glimpse|gaze|stare|gape|ogle) [*] (igl pipeline network|iglpipelinenetwork|iglpipelineconnection|igl pipeline connection|iglpipeline connection|igl pipeline network|iglpipelinenetwork|iglpipelineconnection|igl pipeline connection|iglpipeline connection) [*] 
 - get-info:igl-pipeline-network
 
-+ [*] (igl pipeline network|iglpipelinenetwork|iglpipelineconnection|igl pipeline connection|iglpipeline connection|IGL pipeline network|IGLpipelinenetwork|IGLpipelineconnection|IGL pipeline connection|IGLpipeline connection) [*] 
++ [*] (igl pipeline network|iglpipelinenetwork|iglpipelineconnection|igl pipeline connection|iglpipeline connection|igl pipeline network|iglpipelinenetwork|iglpipelineconnection|igl pipeline connection|iglpipeline connection) [*] 
 - get-info:igl-pipeline-network
 
-+ [*] (igl pipeline network|iglpipelinenetwork|iglpipelineconnection|igl pipeline connection|iglpipeline connection|IGL pipeline network|IGLpipelinenetwork|IGLpipelineconnection|IGL pipeline connection|IGLpipeline connection) [*] (see|glance|observe|view|examine|study|inspect|scan|survey|sight|peep|peek|glimpse|gaze|stare|gape|ogle)  [*] 
++ [*] (igl pipeline network|iglpipelinenetwork|iglpipelineconnection|igl pipeline connection|iglpipeline connection|igl pipeline network|iglpipelinenetwork|iglpipelineconnection|igl pipeline connection|iglpipeline connection) [*] (see|glance|observe|view|examine|study|inspect|scan|survey|sight|peep|peek|glimpse|gaze|stare|gape|ogle)  [*] 
 - get-info:igl-pipeline-network
 
-+ [*] (apply|register|application) [*] (new png connection|png connection|new PNG connection|PNG connection) [*]
++ [*] (apply|register|application) [*] (new png connection|png connection|new png connection|png connection) [*]
 - get-info:apply-new-png-connection
 
 + [*] (new png connection|png connection) [*] (apply|register|application) [*]
@@ -124,19 +124,19 @@
 + [*] (apply|register|application) [*] (png|pn|pg) [*]
 - get-info:apply-new-png-connection
 
-+ [*] (new png connection|png connection|new PNG connection|PNG connection) [*]
++ [*] (new png connection|png connection|new png connection|png connection) [*]
 - get-info:apply-new-png-connection
 
 + (new png connection|png connection|new connection|new connections)
 - get-info:apply-new-png-connection
 
-+ [*] payment [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode|modes|plans|plan|terms|term|methods) [*] (png|pn|pg|PNG) [*]
++ [*] payment [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode|modes|plans|plan|terms|term|methods) [*] (png|pn|pg|png) [*]
 - get-info:payment-mode-png
 
-+ [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode|modes|plans|plan|terms|term|methods) [*] payment [*] (png|pn|pg|PNG) [*]
++ [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode|modes|plans|plan|terms|term|methods) [*] payment [*] (png|pn|pg|png) [*]
 - get-info:payment-mode-png
 
-+ [*] (png|pn|pg|PNG) [*] payment [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode|modes|plans|plan|terms|term|methods) [*]
++ [*] (png|pn|pg|png) [*] payment [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode|modes|plans|plan|terms|term|methods) [*]
 - get-info:payment-mode-png
 
 + [*] payment [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode|modes|plans|plan|terms|term|methods) [*]
@@ -145,10 +145,10 @@
 + [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode|modes|plans|plan|terms|term|methods) [*] payment  [*]
 - get-info:payment-mode-png
 
-+ [*] criteria [*] (new png connection|png connection|new PNG connection|PNG connection) [*]
++ [*] criteria [*] (new png connection|png connection|new png connection|png connection) [*]
 - get-info:criteria-png-conection
 
-+ [*] (new png connection|png connection|new PNG connection|PNG connection) [*] criteria [*] 
++ [*] (new png connection|png connection|new png connection|png connection) [*] criteria [*] 
 - get-info:criteria-png-conection
 
 + [*] (refund|repay) [*] security deposit [*]
@@ -163,16 +163,16 @@
 + [*] (service|charge|services|charges) [*] (payable|pay) [*]
 - get-info:payble-services-charges
 	
-+ [*] (guideline|guidelines) [*] (gas geyser|gasgeyser|Gas Geyser|GasGeyser) [*] (install|instal|installation|Install|Instal|Installation) [*]
++ [*] (guideline|guidelines) [*] (gas geyser|gasgeyser|gas geyser|gasgeyser) [*] (install|instal|installation|install|instal|installation) [*]
 - get-info:guideline-gas-geyser-install
 
-+ [*] (gas geyser|gasgeyser|Gas Geyser|GasGeyser)  [*] (install|instal|installation|Install|Instal|Installation) [*] (guideline|guidelines) [*]
++ [*] (gas geyser|gasgeyser|gas geyser|gasgeyser)  [*] (install|instal|installation|install|instal|installation) [*] (guideline|guidelines) [*]
 - get-info:guideline-gas-geyser-install
 
-+ [*] (install|instal|installation|Install|Instal|Installation) [*] (gas geyser|gasgeyser|Gas Geyser|GasGeyser) [*]
++ [*] (install|instal|installation|install|instal|installation) [*] (gas geyser|gasgeyser|gas geyser|gasgeyser) [*]
 - get-info:guideline-gas-geyser-install
  
-+ [*] (gas geyser|gasgeyser|Gas Geyser|GasGeyser) [*] (install|instal|installation|Install|Instal|Installation) [*] 
++ [*] (gas geyser|gasgeyser|gas geyser|gasgeyser) [*] (install|instal|installation|install|instal|installation) [*] 
 - get-info:guideline-gas-geyser-install
 
 + [*] (transfer|move|shift|handover|relocation|change|changeover|switch|convert) [*] (owner|ownership|title|possession) [*] (png|pn|pg) [*]
@@ -187,19 +187,19 @@
 + [*] (png|pn|pg) [*] (owner|ownership|title|possession) [*] (transfer|move|shift|handover|relocation|change|changeover|switch|convert) [*]
 - get-info:trsnsfer-png-ownership
 
-+ [*] (know|about|mean|meaning|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to|check) [*] (png|pn|pg|PNG) bill [*]
++ [*] (know|about|mean|meaning|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to|check) [*] (png|pn|pg|png) bill [*]
 - get-info:know-png-bill
 
-+ (png|pn|pg|PNG) bill
++ (png|pn|pg|png) bill
 - get-info:know-png-bill
 
-+ [*] (good|sake|interest|welfare|well being|satisfaction|enjoyment|advantage|comfort|ease|convenience|benefit|uses|Uses) [*] (cng|cn|cg)[*]
++ [*] (good|sake|interest|welfare|well being|satisfaction|enjoyment|advantage|comfort|ease|convenience|benefit|uses|uses) [*] (cng|cn|cg)[*]
 - get-info:what-benefits-cng	
 
-+ [*] (cng|cn|cg)[*] (good|sake|interest|welfare|well being|satisfaction|enjoyment|advantage|comfort|ease|convenience|benefit|uses|Uses) [*]
++ [*] (cng|cn|cg)[*] (good|sake|interest|welfare|well being|satisfaction|enjoyment|advantage|comfort|ease|convenience|benefit|uses|uses) [*]
 - get-info:what-benefits-cng
 
-+ [*] (step|steps|procedure|procedures|how) [*] care [*] (cng|cn|cg|CNG) (vehicle|vehicles|Vehicle|Vehicles) [*]
++ [*] (step|steps|procedure|procedures|how) [*] care [*] (cng|cn|cg|cng) (vehicle|vehicles|vehicle|vehicles) [*]
 - get-info:steps-cng-vehicle
 
 + [*] vehicle conversion [*] (cng|cn|cg) [*]
@@ -208,7 +208,7 @@
 + [*] (conversion|convert) [*] (vehicle|vehicles) [*] (cng|cn|cg) [*]
 - get-info:vehicle-conversion-cng
 
-+ [*] (cng|cn|cg|CNG) [*] retrofitment [*] (centre|locate|location|position|place|situation|site|locality|locale|spot|whereabouts|point|placement|center) [*]
++ [*] (cng|cn|cg|cng) [*] retrofitment [*] (centre|locate|location|position|place|situation|site|locality|locale|spot|whereabouts|point|placement|center) [*]
 - get-info:cng-retrofilment-centre
 
 + [*] (centre|locate|location|position|place|situation|site|locality|locale|spot|whereabouts|point|placement) [*] (cng|cn|cg) [*] retrofitment [*]
@@ -220,13 +220,13 @@
 + [*] (cng|cn|cg)[*] (economical|efficient|mileage) [*] 
 - get-info:cng-economical-vehicle
 
-+ [*] (know|about|mean|meaning|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*] (cng|cn|cg|CNG) (save|saving) calculator [*]
++ [*] (know|about|mean|meaning|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*] (cng|cn|cg|cng) (save|saving) calculator [*]
 - get-info:cng-saving-calculator
 
-+ [*] (cng|cn|cg|CNG) (save|saving) calculator [*]
++ [*] (cng|cn|cg|cng) (save|saving) calculator [*]
 - get-info:cng-saving-calculator
 
-+ [*] (locate|location|position|place|situation|site|locality|locale|spot|whereabouts|point|placement|centre|locations) [*] (cng station|cngstation|CNGstation|CNG station|CNGstations|CNG stations|CNGStations|CNG Stations|cng station|cng stations) [*]
++ [*] (locate|location|position|place|situation|site|locality|locale|spot|whereabouts|point|placement|centre|locations) [*] (cng station|cngstation|cngstation|cng station|cngstations|cng stations|cngstations|cng stations|cng station|cng stations) [*]
 - get-info:cng-station-location
 
 + [*] (cng station|cngstation) [*] (centre|locate|location|position|place|situation|site|locality|locale|spot|whereabouts|point|placement|locations) [*]
@@ -235,70 +235,70 @@
 + [*] (cng station|cngstation) [*]
 - get-info:cng-station-location
 
-+ [*] (cng|cn|cg|CNG) cylinder hydro (test|testing) [*] (centre|locate|location|position|place|situation|site|locality|locale|spot|whereabouts|point|placement|center) [*]
++ [*] (cng|cn|cg|cng) cylinder hydro (test|testing) [*] (centre|locate|location|position|place|situation|site|locality|locale|spot|whereabouts|point|placement|center) [*]
 - get-info:cng-cylinder-hydro-testing-centre
 
-+ [*] (cng|cn|cg|CNG) [*] (price|cost|asking price|selling price|charge|fee|rate|fare|amount) [*]
++ [*] (cng|cn|cg|cng) [*] (price|cost|asking price|selling price|charge|fee|rate|fare|amount) [*]
 - get-info:cng-price
 
-+ [*] (price|cost|asking price|selling price|charge|fee|rate|fare|amount) [*] (cng|cn|cg|CNG) [*]
++ [*] (price|cost|asking price|selling price|charge|fee|rate|fare|amount) [*] (cng|cn|cg|cng) [*]
 - get-info:cng-price
 
-+ [*] (know|get to know|get|know) [*] (price|cost|asking price|selling price|charge|fee|rate|fare|amount) [*] (cng|cn|cg|CNG) [*]
++ [*] (know|get to know|get|know) [*] (price|cost|asking price|selling price|charge|fee|rate|fare|amount) [*] (cng|cn|cg|cng) [*]
 - get-info:cng-price
 
-+ [*] (cng|cn|cg|CNG)[*] (payment|pay) [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode|options) [*]
++ [*] (cng|cn|cg|cng)[*] (payment|pay) [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode|options) [*]
 - get-info:payment-option-cng
 
-+ [*] (cng|cn|cg|CNG)[*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode|options) [*] (payment|pay) [*] 
++ [*] (cng|cn|cg|cng)[*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode|options) [*] (payment|pay) [*] 
 - get-info:payment-option-cng
 
-+ [*] (payment|pay) [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode|options) [*] (cng|cn|cg|CNG)[*]
++ [*] (payment|pay) [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode|options) [*] (cng|cn|cg|cng)[*]
 - get-info:payment-option-cng
 
-+ [*] (payment|pay) [*] (cng|cn|cg|CNG)[*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode|options) [*] 
++ [*] (payment|pay) [*] (cng|cn|cg|cng)[*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode|options) [*] 
 - get-info:payment-option-cng
 
-+ [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode|options) [*] (payment|pay)  [*] (cng|cn|cg|CNG)[*]
++ [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode|options) [*] (payment|pay)  [*] (cng|cn|cg|cng)[*]
 - get-info:payment-option-cng
 
-+ [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode|options) [*] (cng|cn|cg|CNG)[*] (payment|pay) [*]
++ [*] (manner|way|means|method|system|style|approach|technique|procedure|process|form|option|mode|options) [*] (cng|cn|cg|cng)[*] (payment|pay) [*]
 - get-info:payment-option-cng
 
-+ [*] initiatives [*] (cng|cn|cg|CNG) [*]
++ [*] initiatives [*] (cng|cn|cg|cng) [*]
 - get-info:initiative-cng
 
-+ [*] new initiatives [*] (cng|cn|cg|CNG) [*]
++ [*] new initiatives [*] (cng|cn|cg|cng) [*]
 - get-info:initiative-cng
 
 + [*] (cng|cn|cg)[*] new initiatives [*]
 - get-info:initiative-cng
 
-+ [*] (what|know|about|mean|meaning|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*] (natural|nature|Natural) (gas|Gas) [*]
++ [*] (what|know|about|mean|meaning|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*] (natural|nature|natural) (gas|gas) [*]
 - get-info:know-about-natural-gas
 
-+ [*] what [*] (natural|nature|Natural) (gas|Gas) [*]
++ [*] what [*] (natural|nature|natural) (gas|gas) [*]
 - get-info:know-about-natural-gas
 
-+ [*] (safety (information|details|particulars|facts|figures|data|advice|tips)|protection (information|details|particulars|facts|figures|data|advice|tips)|security (information|details|particulars|facts|figures|data|advice|tips))  [*] (cng|cn|cg|CNG)[*] (customer|customers) [*]
++ [*] (safety (information|details|particulars|facts|figures|data|advice|tips)|protection (information|details|particulars|facts|figures|data|advice|tips)|security (information|details|particulars|facts|figures|data|advice|tips))  [*] (cng|cn|cg|cng)[*] (customer|customers) [*]
 - get-info:safety-information-cng
 
-+ [*] (safety (information|details|particulars|facts|figures|data|advice|tips)|protection (information|details|particulars|facts|figures|data|advice|tips|tips)|security (information|details|particulars|facts|figures|data|advice|tips)) [*] (cng|cn|cg|CNG)[*] 
++ [*] (safety (information|details|particulars|facts|figures|data|advice|tips)|protection (information|details|particulars|facts|figures|data|advice|tips|tips)|security (information|details|particulars|facts|figures|data|advice|tips)) [*] (cng|cn|cg|cng)[*] 
 - get-info:safety-information-cng
 
-+ [*] (cng|cn|cg|CNG)[*] (safety (information|details|particulars|facts|figures|data|advice|tips|tips)|protection (information|details|particulars|facts|figures|data|advice|tips)|security (information|details|particulars|facts|figures|data|advice|tips)) [*]
++ [*] (cng|cn|cg|cng)[*] (safety (information|details|particulars|facts|figures|data|advice|tips|tips)|protection (information|details|particulars|facts|figures|data|advice|tips)|security (information|details|particulars|facts|figures|data|advice|tips)) [*]
 - get-info:safety-information-cng
 
-+ [*] (cng|cn|cg|CNG)[*] (safety (information|details|particulars|facts|figures|data|advice|tips)|protection (information|details|particulars|facts|figures|data|advice|tips)|security (information|details|particulars|facts|figures|data|advice|tips)) [*]
++ [*] (cng|cn|cg|cng)[*] (safety (information|details|particulars|facts|figures|data|advice|tips)|protection (information|details|particulars|facts|figures|data|advice|tips)|security (information|details|particulars|facts|figures|data|advice|tips)) [*]
 - get-info:safety-information-cng
 
-+ [*] (safety (information|details|particulars|facts|figures|data|advice|tips)|protection (information|details|particulars|facts|figures|data|advice|tips)|security (information|details|particulars|facts|figures|data|advice|tips)) [*] (png|pn|pg|PNG) [*] (customer|customers) [*]
++ [*] (safety (information|details|particulars|facts|figures|data|advice|tips)|protection (information|details|particulars|facts|figures|data|advice|tips)|security (information|details|particulars|facts|figures|data|advice|tips)) [*] (png|pn|pg|png) [*] (customer|customers) [*]
 - get-info:safety-information-png
 
-+ [*] (png|pn|pg|PNG) [*] (safety (information|details|particulars|facts|figures|data|advice|tips)|protection (information|details|particulars|facts|figures|data|advice|tips)|security (information|details|particulars|facts|figures|data|advice|tips)) [*]
++ [*] (png|pn|pg|png) [*] (safety (information|details|particulars|facts|figures|data|advice|tips)|protection (information|details|particulars|facts|figures|data|advice|tips)|security (information|details|particulars|facts|figures|data|advice|tips)) [*]
 - get-info:safety-information-png
 
-+ [*] (png|pn|pg|PNG) [*] (safety (information|details|particulars|facts|figures|data|advice|tips)|protection (information|details|particulars|facts|figures|data|advice|tips)|security (information|details|particulars|facts|figures|data|advice|tips)) [*]
++ [*] (png|pn|pg|png) [*] (safety (information|details|particulars|facts|figures|data|advice|tips)|protection (information|details|particulars|facts|figures|data|advice|tips)|security (information|details|particulars|facts|figures|data|advice|tips)) [*]
 - get-info:safety-information-png
 
 + [*] (precaution|precautions|safeguard|preventative measure|preventive measure|safety measure|insurance|defence|provision|care|safety) [*] (dig|digging) [*]
@@ -307,10 +307,10 @@
 + [*] (dig|digging) [*] (precaution|precautions|safeguard|preventative measure|preventive measure|safety measure|insurance|defence|provision|care|safety) [*]
 - get-info:precautions-digging
 
-+ [*] (detect|find|get|catch) [*] gas leakage [*]
++ [*] (detect|find|get|catch) [*] gas [*] (leakage|leak|smell|smell|smells|smelling) [*]
 - get-info:how-detect-gas-leakage
 
-+ [*] gas leakage [*] (detect|find|get|catch) [*]
++ [*] gas [*] (leakage|leak|smell|smell|smells|smelling|fire) [*] (detect|find|get) [*]
 - get-info:how-detect-gas-leakage
 
 + [*] gas [*] leakage [*] 
@@ -319,10 +319,10 @@
 + [*] leakage [*] gas [*] 
 - get-info:how-detect-gas-leakage
 
-+ [*] (customer|Customer|customers|Customers) [*] (teach|school|tuition|tutoring|instruction|pedagogy|andragogy|coaching|training|tutelage|drilling|preparation|guidance|indoctrination|inculcation|enlightenment|edification|cultivation|development|improvement|bettering|education|educational) [*] (initiative|initiatives|Initiative|Initiatives|action|actions) [*] (igl|IGL)
++ [*] (customer|customer|customers|customers) [*] (teach|school|tuition|tutoring|instruction|pedagogy|andragogy|coaching|training|tutelage|drilling|preparation|guidance|indoctrination|inculcation|enlightenment|edification|cultivation|development|improvement|bettering|education|educational) [*] (initiative|initiatives|initiative|initiatives|action|actions) [*] (igl|igl)
 - get-info:customer-educational-iniatives
 
-+ [*] (teach|school|tuition|tutoring|instruction|pedagogy|andragogy|coaching|training|tutelage|drilling|preparation|guidance|indoctrination|inculcation|enlightenment|edification|cultivation|development|improvement|bettering|education|educational) [*] (initiative|initiatives|Initiative|Initiatives|action|actions) [*] (customer|Customer|customers|Customers) [*] 
++ [*] (teach|school|tuition|tutoring|instruction|pedagogy|andragogy|coaching|training|tutelage|drilling|preparation|guidance|indoctrination|inculcation|enlightenment|edification|cultivation|development|improvement|bettering|education|educational) [*] (initiative|initiatives|initiative|initiatives|action|actions) [*] (customer|customer|customers|customers) [*] 
 - get-info:customer-educational-iniatives
 
 + [*] (awards|accolades) [*]
@@ -370,11 +370,8 @@
 + [*] (commercial|industrial) [*] (contact|get in touch with|communicate with|make contact with|approach|reach|notify|be in communication with) [*]
 - get-info:igl-commercial-industrial-contacts
 
-+ [*] csr policy [*]
++ [*] csr [*] (philosophy|policy|terminology|phraselogy|philosphy|initiative|intiative) [*]
 - get-info:what-csr-policy
-
-+ [*] csr initiative [*]
-- get-info:what-csr-initiatives
 
 + [*] (see|glance|observe|view|examine|study|inspect|scan|survey|sight|peep|peek|glimpse|gaze|stare|gape|ogle|check) [*] csr gallery [*]
 - get-info:how-csr-gallery
@@ -496,13 +493,19 @@
 + [*] noc [*] (download|get|acquire|obtain|receive|gain)  [*]
 - get-info:download-noc
 
-+ [*] (prepaid gas balance|prepaid balance) [*]
++ [*] (prepay|prepaid|prepone) [*] gas [*]
 - get-info:prepaid-gas-balance
 
-+ [*] (recharge|refill) [*] prepaid meter [*]
++ [*] gas [*] (prepay|prepaid|prepone) [*] 
+- get-info:prepaid-gas-balance
+
++ [*] gas [*] balance [*]
+- get-info:prepaid-gas-balance
+
++ [*] (recharge|refill) [*] (prepay|prepaid|prepone) [*] (meter|metre) [*]
 - get-info:online-rechrge-prepaid-meter
 
-+ [*] prepaid meter [*] (recharge|refill) [*]
++ [*] (prepay|prepaid|prepone) [*] (meter|metre) [*] (recharge|refill) [*]
 - get-info:online-rechrge-prepaid-meter	
 
 + [*] (igl smart card|iglsmartcard) [*]
@@ -511,10 +514,10 @@
 + [*] online [*] payment [*] tata (powerddl|power ddl|power) [*]
 - get-info:online-payment-tata-power
 
-+ [*] online [*] tata (powerddl|power ddl|power) [*] payment [*]
++ [*] online [*] tata (powerddl|power ddl|power) [*] (payment|pay) [*]
 - get-info:online-payment-tata-power
 
-+ [*] payment [*] online [*] tata (powerddl|power ddl|power) [*]
++ [*] (payment|pay) [*] online [*] tata (powerddl|power ddl|power) [*]
 - get-info:online-payment-tata-power
 
 + [*] payment [*] tata (powerddl|power ddl|power) [*] online [*]
@@ -577,10 +580,16 @@
 + [*] (contact|help|helpline|customer care|number) [*] igl [*]
 - get-info:contact-us
 
-+ (contact|help|helpline|customer care|number|contact us|contactus|contact details|contact detail)
++ (contact|help|helpline|customer care|number|contact us|contactus|contact details|contact detail|call centre|callcentre|call center|callcenter)
 - get-info:contact-us
 
 + (contact|help|helpline|customer care|contact us|contactus|customer care) (number|num)
+- get-info:contact-us
+
++ [*] (contact|help|helpline|customer care|number|contact us|contactus|contact details|contact detail|call centre|callcentre|call center|callcenter) [*] png [*]
+- get-info:contact-us
+
++ [*] png [*] (contact|help|helpline|customer care|number|contact us|contactus|contact details|contact detail|call centre|callcentre|call center|callcenter) [*]
 - get-info:contact-us
 
 + gas

@@ -1,13 +1,10 @@
 + [*] (reset|reseet)
 - bot:reset
 
-+ [*](due)[*]
++ [*] (due|overdue|duke|not on time|no on time|behind schedule|behindhand|behind time|delayed|delayed|unpunctual|outstanding|diu|outstand|pending|remain|unpaid|unsettled|unresolved|owe|to be paid|payable) [*] (bill|bills|payment|amount|total|sum|balance) [*]
 - usecase-due:ud-bp-number
 
-+ [*] (due|overdue|duke|late|not on time|no on time|behind schedule|behindhand|behind time|delayed|delayed|belated|tardy|unpunctual|outstanding|diu|outstand|pending|remain|left|unpaid|unsettled|unresolved|owe|to be paid|payable|in arrears|in the red) [*] (bill|bills|payment|amount|total|sum|balance) [*]
-- usecase-due:ud-bp-number
-
-+ [*] (bill|bills|payment|amount|total|sum|balance) [*] (due|overdue|duke|late|not on time|no on time|behind schedule|behindhand|behind time|delayed|delayed|belated|tardy|unpunctual|outstanding|diu|outstand|pending|remain|left|unpaid|unsettled|unresolved|owe|to be paid|payable|in arrears|in the red) 
++ [*] (bill|bills|payment|amount|total|sum|balance) [*] (due|overdue|duke|not on time|no on time|behind schedule|behindhand|behind time|delayed|delayed|unpunctual|outstanding|diu|outstand|pending|remaing|unpaid|unsettled|unresolved|owe|to be paid|payable) 
 - usecase-due:ud-bp-number
 
 /*

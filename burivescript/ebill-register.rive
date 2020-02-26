@@ -10,6 +10,12 @@
 + [*] (register|record|enter|file|lodge|post|set down|inscribe|write down|submit|report|take down|note|minute|list|log) [*] (mail|email|e mail|mailid|emailid)  [*]
 - ebill-register:er-bp-number
 
++ [*] (register|subscribe|subscription|opt|want|take|record) [*] (ebill|e bill|be bill|bill|bills|mail|email|e mail|mailid|emailid) [*]
+- ebill-register:er-bp-number 
+
++ [*] (ebill|e bill|be bill|bill|bills|mail|email|e mail|mailid|emailid) [*] (register|subscribe|subscription|opt|want|take|record)  [*]
+- ebill-register:er-bp-number 
+
 + [*] (ebill|e bill|bill|bills) [*] (mail|email|e mail|mailid|emailid) [*]
 - ebill-register:er-bp-number
 

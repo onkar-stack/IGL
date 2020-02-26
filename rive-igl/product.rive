@@ -1,6 +1,6 @@
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q1: What is Natural Gas?
+q1: what is natural gas?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -10,7 +10,7 @@ Q1: What is Natural Gas?
 + png
 - product:what-natural-gas
 
-+ [*] (know|about|mean|meaning|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*] (png|pg|pn) [*]
++ [*] (know|about|mean|meaning|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*] (png|pg|pn)
 - product:what-natural-gas
 
 + [*] (png|pg|pn) [*] (know|about|mean|meaning|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*]
@@ -19,7 +19,7 @@ Q1: What is Natural Gas?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q2: Where is PNG stored in Delhi?
+q2: where is png stored in delhi?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -37,7 +37,7 @@ Q2: Where is PNG stored in Delhi?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q3: Is the supply of PNG regular?
+q3: is the supply of png regular?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -64,7 +64,7 @@ Q3: Is the supply of PNG regular?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q4: What changes are required for conversion of an LPG appliance to be PNG friendly?
+q4: what changes are required for conversion of an lpg appliance to be png friendly?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -82,7 +82,7 @@ Q4: What changes are required for conversion of an LPG appliance to be PNG frien
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q5: What becomes of the LPG cylinders after the cooking appliance gets converted?
+q5: what becomes of the lpg cylinders after the cooking appliance gets converted?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -92,7 +92,7 @@ Q5: What becomes of the LPG cylinders after the cooking appliance gets converted
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q6: What is a domestic PNG connection?
+q6: what is a domestic png connection?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -107,7 +107,7 @@ Q6: What is a domestic PNG connection?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q7: What is the cost of getting a PNG connection?
+q7: what is the cost of getting a png connection?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -119,7 +119,7 @@ Q7: What is the cost of getting a PNG connection?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q8: How are customer queries and complaints attended to?
+q8: how are customer queries and complaints attended to?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -131,7 +131,7 @@ Q8: How are customer queries and complaints attended to?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q9: What is CNG?
+q9: what is cng?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -152,7 +152,7 @@ Q9: What is CNG?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q10: Is CNG safe?
+q10: is cng safe?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -165,7 +165,7 @@ Q10: Is CNG safe?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q11: What is involved in converting a vehicle to a CNG-friendly one?
+q11: what is involved in converting a vehicle to a cng-friendly one?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -177,7 +177,7 @@ Q11: What is involved in converting a vehicle to a CNG-friendly one?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q12: Can a car, fitted with CNG conversion kit, run on Petrol after its CNG gets over?
+q12: can a car, fitted with cng conversion kit, run on petrol after its cng gets over?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -192,7 +192,7 @@ Q12: Can a car, fitted with CNG conversion kit, run on Petrol after its CNG gets
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q13: What are the dimensions and weight of a CNG cylinder?
+q13: what are the dimensions and weight of a cng cylinder?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -204,11 +204,11 @@ Q13: What are the dimensions and weight of a CNG cylinder?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q14: What is the capacity of a cylinder, and mileage from one fill? How does one get to know the quantity of CNG left in the cylinder?
+q14: what is the capacity of a cylinder, and mileage from one fill? how does one get to know the quantity of cng left in the cylinder?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ [*] (capacity|capacities|capicity) [*] (cylinder|cylinders) [*] mileage [*] fill[*] (quantity|amount) [*] (cng|CNG) [*] cylinder [*]
++ [*] (capacity|capacities|capicity) [*] (cylinder|cylinders) [*] mileage [*] fill[*] (quantity|amount) [*] (cng|cng) [*] cylinder [*]
 - product:capacity-cylinder
 
 + [*] (quantity|amount) [*] cng [*] cylinder [*]
@@ -216,7 +216,7 @@ Q14: What is the capacity of a cylinder, and mileage from one fill? How does one
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q15: What is the pressure of CNG in a cylinder? Is refuelling of a cylinder safe, given the pressure?
+q15: what is the pressure of cng in a cylinder? is refuelling of a cylinder safe, given the pressure?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -234,7 +234,7 @@ Q15: What is the pressure of CNG in a cylinder? Is refuelling of a cylinder safe
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q16: How much will be the saving after conversion to CNG?
+q16: how much will be the saving after conversion to cng?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -249,7 +249,7 @@ Q16: How much will be the saving after conversion to CNG?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q17: Does CNG kit require servicing?
+q17: does cng kit require servicing?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -261,7 +261,7 @@ Q17: Does CNG kit require servicing?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q18: Does CNG have any harmful effect on the engine?
+q18: does cng have any harmful effect on the engine?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -276,8 +276,8 @@ Q18: Does CNG have any harmful effect on the engine?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q19: Can a diesel vehicle be converted to CNG?
-Done
+q19: can a diesel vehicle be converted to cng?
+done
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -292,7 +292,7 @@ Done
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q20: Why are exhaust fumes so small in CNG-run vehicles?
+q20: why are exhaust fumes so small in cng-run vehicles?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -307,7 +307,7 @@ Q20: Why are exhaust fumes so small in CNG-run vehicles?
 	
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q21: How does large-scale CNG usage benefit the country?
+q21: how does large-scale cng usage benefit the country?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -319,7 +319,7 @@ Q21: How does large-scale CNG usage benefit the country?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q22: In which countries are natural gas vehicles popular?
+q22: in which countries are natural gas vehicles popular?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -334,7 +334,7 @@ Q22: In which countries are natural gas vehicles popular?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q23: The invoices are  Retail and at time Estimated . What does it mean? 
+q23: the invoices are  retail and at time estimated . what does it mean? 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -347,7 +347,7 @@ Q23: The invoices are  Retail and at time Estimated . What does it mean?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q24: If the premises are vacant, can I avail a 'Not in Use' facility. Is it beneficial to the customer? 
+q24: if the premises are vacant, can i avail a 'not in use' facility. is it beneficial to the customer? 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -360,7 +360,7 @@ Q24: If the premises are vacant, can I avail a 'Not in Use' facility. Is it bene
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q25: I have not received bill, how can I get a duplicate copy? 
+q25: i have not received bill, how can i get a duplicate copy? 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -381,17 +381,17 @@ Q25: I have not received bill, how can I get a duplicate copy?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q26: What is IGL?
+q26: what is igl?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ (igl|IGL)
++ (igl|igl)
 - product:what-igl
 
 + [*] what [*] igl [*]
 - product:what-igl
 
-+ [*] (about|know|about|mean|means|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*] (igl|indraprastha gas|indraprastha gas limited) [*]
++ [*] (know|about|mean|means|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) (igl|indraprastha gas|indraprastha gas limited) [*]
 - product:what-igl
 
 + [*] (igl|indraprastha gas|indraprastha gas limited) [*] (about|know|about|mean|means|signify|convey|denote|designate|indicate|connote|show|express|spell out|stand for|represent|symbolize|imply|purport|suggest|allude to|intimate|hint at|insinuate|drive at|refer to) [*]
@@ -399,7 +399,7 @@ Q26: What is IGL?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q27: What are the business objectives of IGL?
+q27: what are the business objectives of igl?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -419,19 +419,19 @@ Q27: What are the business objectives of IGL?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q28: What is Future Outlook of IGL?
+q28: what is future outlook of igl?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ [*] (future|futures|outlook|outlooks) [*] (igl|indraprastha gas|indraprastha gas limited|IGL) [*]
++ [*] (future|futures|outlook|outlooks) [*] (igl|indraprastha gas|indraprastha gas limited|igl) [*]
 - product:future-igl
 
-+ [*] (igl|indraprastha gas|indraprastha gas limited|IG) [*]
++ [*] (igl|indraprastha gas|indraprastha gas limited|igl) [*] (future|futures|outlook|outlooks)  [*]
 - product:future-igl
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q:29 What is MISSION of IGL?
+q:29 what is mission of igl?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -444,7 +444,7 @@ Q:29 What is MISSION of IGL?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q30: What is VISION of IGL?
+q30: what is vision of igl?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -456,19 +456,19 @@ Q30: What is VISION of IGL?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q31: Who are the Board of Directors of IGL?
+q31: who are the board of directors of igl?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ [*] (board of directors|bod|board of director|board director|boarddirector) [*] (igl|IGL) [*]
++ [*] (board of directors|bod|board of director|board director|boarddirector) [*] (igl|igl) [*]
 - product:bod-igl
 
-+ [*] (igl|IGL) [*] (board of directors|bod|board of director|board director|boarddirector) [*]
++ [*] (igl|igl) [*] (board of directors|bod|board of director|board director|boarddirector) [*]
 - product:bod-igl
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q32: Where is CNG Stored in Delhi/CNG Storage/CNG Storage points?
+q32: where is cng stored in delhi/cng storage/cng storage points?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -486,7 +486,7 @@ Q32: Where is CNG Stored in Delhi/CNG Storage/CNG Storage points?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q33: How do I get the bills?
+q33: how do i get the bills?
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -500,7 +500,7 @@ Q33: How do I get the bills?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q34: What is estimated bill. How is it calculated? 
+q34: what is estimated bill. how is it calculated? 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
@@ -521,19 +521,19 @@ Q34: What is estimated bill. How is it calculated?
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q35: How can I subscribe for E bill? 
+q35: how can i subscribe for e bill? 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-+ [*] (subscribe|subscription) [*] (E bill|Ebill|ebill|e bill) [*]
++ [*] (subscribe|subscription) [*] (e bill|ebill|ebill|e bill) [*]
 - product:subscribe-ebill
 
-+ [*] (E bill|Ebill|ebill|e bill) [*] (subscribe|subscription) [*]
++ [*] (e bill|ebill|ebill|e bill) [*] (subscribe|subscription) [*]
 - product:subscribe-ebill
 
 /*
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Q35: What is Minimum Consumption charge on my bill? 
+q35: what is minimum consumption charge on my bill? 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 

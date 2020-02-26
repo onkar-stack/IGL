@@ -10,10 +10,15 @@
 + [*] (leakage|leak|smell|smell|smells|smelling|fire) [*] (home|office|house|kitchen|residence|space|room|flat) [*]
 - usecase-leakage:ul-leakage
 
+/*
 + [*] gas [*] (leakage|leak|smell|smell|smells|smelling|fire) [*]
 - usecase-leakage:ul-leakage
 
 + [*] (leakage|leak|smell|smell|smells|smelling|fire) [*] gas [*]
+- usecase-leakage:ul-leakage
+*/
+
++ gas (leakage|leak|smell|smell|smells|smelling|fire)
 - usecase-leakage:ul-leakage
 
 + (ulleakage yes|ulleakage ya|ulleakage ok) [*]

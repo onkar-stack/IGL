@@ -1,4 +1,14 @@
-+ (hi|hii|hello|greeting|greetings|hey|hi disha|hii disha) [*]
++ (hi|hii|hello|greeting|greetings|hey)
+- greetings:hi
+- greetings:hello
+- greetings:greeting
+- greetings:greetings
+- greetings:hey
+- greetings:hi-disha
+- greetings:hii-disha
+- greetings:hii
+
++ (hi|hii|hello|hey|greeting|greetins) [*] (disha|sis|sister|baby|jaan|team|mam|maam|irctc|there|today|cuty|betaji|mami|mam|dear|how are you|how r u|how you|h r u|hru|how are u|good evening|madam|darling|disa|mem|dishu|ji|kaisi ho|sir|mama)
 - greetings:hi
 - greetings:hello
 - greetings:greeting
@@ -206,7 +216,7 @@
 - greetings:leave-me-alone
 
 /*
-+ [*] (good morning|good morning|gud morning) [*]
++ [*] (good morning|good morning|gud morning|gm|g m) [*]
 - greetings:good-morning
 - greetings:good-morning
 - greetings:gud-morning
@@ -247,6 +257,9 @@
 + [*] (love|like) [*]
 - greetings:love
 - greetings:like
+
++ [*] joke [*]
+- greetings:joke
 
 + [*] (good morning|good morning|gud morning|good evening|good afternoon) [*]
 - greetings:good-mor-noon-even

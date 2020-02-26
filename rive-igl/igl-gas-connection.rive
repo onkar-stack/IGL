@@ -174,10 +174,10 @@ For above Question Answer is same.
 + [*] (temporary disconnection|renovation) [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
 - igl-gas-connection:service-charge-cost-temporary-disconnection-renovation
 
-+ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] gi [*]
++ [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] copper [*]
 - igl-gas-connection:service-charge-cost-removal-charge-gi
 
-+ [*] gi [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
++ [*] copper [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
 - igl-gas-connection:service-charge-cost-removal-charge-gi
 
 + [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] cu pipeline [*]
@@ -357,13 +357,13 @@ For above Question Answer is same.
 + [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] (png|pg|pn) installation [*]
 - igl-gas-connection:service-charge-cost-reconversion-lpg
 
-+ [*] service [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
-- igl-gas-connection:service-charge-cost-rubber-tube-replacement
-
 + what [*] service [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
 - igl-gas-connection:service-charge-cost-rubber-tube-replacement
 
 + [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*] service [*]
+- igl-gas-connection:service-charge-cost-rubber-tube-replacement
+
++ [*] service [*] (charge|cost|fee|price|tariff|amount|sum|figure|fare|rate|payment|toll|levy|chargescost) [*]
 - igl-gas-connection:service-charge-cost-rubber-tube-replacement
 
 /*
@@ -374,20 +374,16 @@ Q: I tried resetting my login password, but I haven't received my password
 -------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-/*
-For above Question Answer is same.
-*/
-
-+ [*] reset [*] (login|password)
++ [*] reset [*] (login|password|credential) [*]
 - igl-gas-connection:please-reset-igl-login-password
 
-+ [*] (login|password) reset [*]
++ [*] (login|password|credential) [*] reset [*]
 - igl-gas-connection:please-reset-igl-login-password
 
-+ [*] (forgot|forget|fail to remember|fail to recall|fail to think of|let slip) [*] (login|password)
++ [*] (forgot|forget|fail to remember|fail to recall|fail to think of|let slip) [*] (login|password|credential)
 - igl-gas-connection:forgot-igl-login-password
 
-+ [*] (login|password) [*] (forgot|forget|fail to remember|fail to recall|fail to think of|let slip) [*]
++ [*] (login|password|credential) [*] (forgot|forget|fail to remember|fail to recall|fail to think of|let slip) [*]
 - igl-gas-connection:forgot-igl-login-password
 
 /*
@@ -396,10 +392,8 @@ Q: What is the frequency of PNG bills?
 -------------------------------------------------------------------------------------------------------------------------------------------------
 */
 
-
 + frequency png bill
 - igl-gas-connection:frequency-png-bill
-
 
 + (what|tell|shall|please|may|can|how) [*] frequency [*] (png|pg|pn) [*] bill [*]
 - igl-gas-connection:frequency-png-bill
@@ -749,10 +743,10 @@ Q: How is the LPC charged?
 + what [*] (lpc|late payment charge)
 - igl-gas-connection:lpc-charge
 
-+ [*] late payment [*] (charge|fee|price|amount|sum|figure|fare|rate|payment|toll|levy) [*]
++ [*] (late payment|lpc) [*] (charge|fee|price|amount|sum|figure|fare|rate|payment|toll|levy) [*]
 - igl-gas-connection:lpc-charge
 
-+ [*] (charge|fee|price|amount|sum|figure|fare|rate|payment|toll|levy) [*] late payment [*]
++ [*] (charge|fee|price|amount|sum|figure|fare|rate|payment|toll|levy) [*] (late payment|lpc) [*]
 - igl-gas-connection:lpc-charge
 
 /*
