@@ -226,6 +226,12 @@
 + [*] (cng|cn|cg|cng) (save|saving) calculator [*]
 - get-info:cng-saving-calculator
 
+/*
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q: How can we know about locations of CNG stations?
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
 + [*] (locate|location|position|place|situation|site|locality|locale|spot|whereabouts|point|placement|centre|locations) [*] (cng station|cngstation|cngstation|cng station|cngstations|cng stations|cngstations|cng stations|cng station|cng stations) [*]
 - get-info:cng-station-location
 
@@ -233,6 +239,12 @@
 - get-info:cng-station-location
 
 + [*] (cng station|cngstation) [*]
+- get-info:cng-station-location
+
++ [*] cng [*] (near|nearby|not far away|not far off|close|near|within reach|at hand|neighbouring|adjacent|nearest) [*]
+- get-info:cng-station-location
+
++ [*] (near|nearby|not far away|not far off|close|near|within reach|at hand|neighbouring|adjacent|nearest) [*] cng  [*]
 - get-info:cng-station-location
 
 + [*] (cng|cn|cg|cng) cylinder hydro (test|testing) [*] (centre|locate|location|position|place|situation|site|locality|locale|spot|whereabouts|point|placement|center) [*]
